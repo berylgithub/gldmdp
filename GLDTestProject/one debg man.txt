@@ -1,0 +1,2090 @@
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+true	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+true	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+true	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+true	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHL
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+false	LLLL
+null	
+null	
+null	
+null	
+true	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	HLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLHL
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHL
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLL
+null	
+null	
+null	
+null	
+false	HLHL
+null	
+null	
+null	
+null	
+false	HLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	LLHL
+null	
+null	
+null	
+null	
+false	HLHL
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHL
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	LLLH
+null	
+null	
+null	
+null	
+true	LLLH
+null	
+null	
+null	
+null	
+true	LLLH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	LLHH
+null	
+null	
+null	
+null	
+true	LLHL
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	LLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHL
+null	
+null	
+null	
+null	
+true	HLHL
+null	
+null	
+null	
+null	
+true	HLHL
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLLH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+true	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH
+null	
+null	
+null	
+null	
+false	HLHH

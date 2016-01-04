@@ -1,0 +1,5 @@
+Extract the archive to a certain directory,
+In that dir do 'javac gld/*.java'
+In that dir do 'java gld.GLDSim'
+
+Have fun. Be good.

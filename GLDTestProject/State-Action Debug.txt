@@ -1,0 +1,2775 @@
+null	
+null	
+null	
+null	
+null	LLLL
+null	
+null	
+null	
+null	
+hijau||0	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||0	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||0	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLML
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||0	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||3	LLLM
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||0	LLLM
+null	
+null	
+null	
+null	
+hijau||2	LLLM
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||0	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||2	LLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||2	MLLM
+null	
+null	
+null	
+null	
+hijau||2	MLLM
+null	
+null	
+null	
+null	
+hijau||2	MLLM
+null	
+null	
+null	
+null	
+hijau||2	MLLM
+null	
+null	
+null	
+null	
+hijau||1	MLLM
+null	
+null	
+null	
+null	
+hijau||1	MLLM
+null	
+null	
+null	
+null	
+hijau||0	LLLM
+null	
+null	
+null	
+null	
+hijau||2	LLLM
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||2	LLLM
+null	
+null	
+null	
+null	
+hijau||2	LLLM
+null	
+null	
+null	
+null	
+hijau||2	LLLM
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||3	LLLM
+null	
+null	
+null	
+null	
+hijau||1	LLLM
+null	
+null	
+null	
+null	
+hijau||3	LLLL
+null	
+null	
+null	
+null	
+hijau||1	LLLL
+null	
+null	
+null	
+null	
+hijau||2	MLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||3	MMLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||0	MMLL
+null	
+null	
+null	
+null	
+hijau||0	MMLL
+null	
+null	
+null	
+null	
+hijau||3	MMLL
+null	
+null	
+null	
+null	
+hijau||1	MMLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||2	MLLL
+null	
+null	
+null	
+null	
+hijau||2	MLLL
+null	
+null	
+null	
+null	
+hijau||2	MLLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||0	MMLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||2	MMLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLL
+null	
+null	
+null	
+null	
+hijau||2	MLLL
+null	
+null	
+null	
+null	
+hijau||1	MLLM
+null	
+null	
+null	
+null	
+hijau||2	MLLM
+null	
+null	
+null	
+null	
+hijau||3	MLLM
+null	
+null	
+null	
+null	
+hijau||3	MMLL
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HLLM
+null	
+null	
+null	
+null	
+hijau||1	HLLM
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HMLM
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||3	HMLM
+null	
+null	
+null	
+null	
+hijau||0	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HMLM
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||3	HMLM
+null	
+null	
+null	
+null	
+hijau||3	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HMLM
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HMLM
+null	
+null	
+null	
+null	
+hijau||3	HMLM
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HMLM
+null	
+null	
+null	
+null	
+hijau||2	HMLM
+null	
+null	
+null	
+null	
+hijau||3	HMLM
+null	
+null	
+null	
+null	
+hijau||1	HLLM
+null	
+null	
+null	
+null	
+hijau||1	HLLM
+null	
+null	
+null	
+null	
+hijau||3	HLLL
+null	
+null	
+null	
+null	
+hijau||1	HLLL
+null	
+null	
+null	
+null	
+hijau||1	HLLL
+null	
+null	
+null	
+null	
+hijau||1	HLLL
+null	
+null	
+null	
+null	
+hijau||1	HLLL
+null	
+null	
+null	
+null	
+hijau||2	HLLL
+null	
+null	
+null	
+null	
+hijau||2	HLLM
+null	
+null	
+null	
+null	
+hijau||1	HLLM
+null	
+null	
+null	
+null	
+hijau||0	HLLM
+null	
+null	
+null	
+null	
+hijau||0	HLLM
+null	
+null	
+null	
+null	
+hijau||1	HLLM
+null	
+null	
+null	
+null	
+hijau||2	HLLM
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLMH
+null	
+null	
+null	
+null	
+hijau||0	HLMH
+null	
+null	
+null	
+null	
+hijau||1	HLMH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLL
+null	
+null	
+null	
+null	
+hijau||0	HLLL
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||0	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HMLH
+null	
+null	
+null	
+null	
+hijau||3	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||0	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||3	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HMLH
+null	
+null	
+null	
+null	
+hijau||3	HMLH
+null	
+null	
+null	
+null	
+hijau||3	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||2	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HMLH
+null	
+null	
+null	
+null	
+hijau||3	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HMLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLMH
+null	
+null	
+null	
+null	
+hijau||1	HLMH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||3	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||2	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
+null	
+null	
+null	
+null	
+hijau||0	HLLH
+null	
+null	
+null	
+null	
+hijau||1	HLLH
