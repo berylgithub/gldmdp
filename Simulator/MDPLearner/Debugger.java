@@ -5,17 +5,22 @@
  */
 package MDPLearner;
 
+import java.io.IOException;
+
 /**
  *
  * @author Yorozuya
  */
-public class PolicyCreator {
+public class Debugger {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
+        Preprocessor prep=new Preprocessor();
+        prep.loadSimulationRecordWNullRemover("State-Action Debug.txt");
+        prep.testPrint();
     }
     
 }

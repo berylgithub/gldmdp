@@ -11,9 +11,8 @@ import java.util.ArrayList;
  *
  * @author Yorozuya
  */
-public class TuppleStateActionContainer {
-    String action;
-    ArrayList<String> arrState=new ArrayList<>();
+public class TuppleStateActionContainerSingleState {
+    String action, state;
 
     public String getAction() {
         return action;
@@ -23,11 +22,14 @@ public class TuppleStateActionContainer {
         this.action = action;
     }
 
-    public ArrayList<String> getArrState() {
-        return arrState;
+    public String getState() {
+        return state;
     }
 
-    public void setArrState(ArrayList<String> arrState) {
-        this.arrState = arrState;
+    public void setState(String state) {
+        this.state = state;
     }
+
+    
+    
 }
