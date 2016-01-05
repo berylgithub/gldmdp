@@ -5,10 +5,17 @@
  */
 package MDPLearner;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Yorozuya
  */
 public class Preprocessor {
+    //read file and delete nulls
+    ArrayList<TuppleStateActionContainer> arrTSAC=new ArrayList<>();
+
+    public Preprocessor() {
+    }
     
 }
