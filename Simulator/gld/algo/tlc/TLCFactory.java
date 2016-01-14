@@ -67,7 +67,8 @@ public class TLCFactory
         /////
                 FIXEDCYCLE=32,
                 PERCENTAGE=33,
-                TESTDEBUG=34;
+                TESTDEBUG=34,
+                TESTDEBUG2SEGMENT=35;
 
 	protected static final String[] tlcDescs = {
 		"Random",
@@ -106,6 +107,7 @@ public class TLCFactory
         "FIxed Cycle ",
         "Percentage Queue",
         "Test Debug",
+        "Test Debug 2 Segment",
 	};
 
 	protected static final String[] xmlNames = {
@@ -145,21 +147,22 @@ public class TLCFactory
         //
         FixedCycle.shortXMLName,
         PercentageQue.shortXMLName,
-        TestDebug.shortXMLName
+        TestDebug.shortXMLName,
+        TestDebug_2segment.shortXMLName,
 	};
 
 
 	protected static final String[] categoryDescs = {"Simple Maths", "Complex Maths", "Longest Q-variants", "Reinforcement Learning", "RL Sarsa TLCs", "Genetic", "Neural Network", "TA"};
 	protected static final int[][] categoryTLCs = {
-		{RANDOM, MOST_CARS, RLD, RLD2, FIXEDCYCLE},
+		{RANDOM, MOST_CARS, RLD, RLD2, },
 		{LOCAL, ACGJ_2},
 		{LONGEST_QUEUE, RELATIVE_LONGEST_QUEUE, BEST_FIRST},
 //		{TC1_FIX, TC_1OPT, TC_2OPT, TC_3OPT, TC1_B1, TC2_B1, TC3_B1, TC_1_DESTLESS, TC_2_DESTLESS, TC_3_WORKINPROGRESS, TC_2FINAL},        
 		{TC1_FIX, TC_1OPT, TC_2OPT, TC_3OPT},
 		{RLSARSA1,RLSARSA2,RLSARSA3,RLSARSA4,RLSARSA5,RLSARSA6},
 		{ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
-		{GENNEURAL, FIXEDCYCLE, TESTDEBUG},
-                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG},
+		{GENNEURAL},
+                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT},
                 
 	};
 
@@ -277,6 +280,7 @@ public class TLCFactory
                         case FIXEDCYCLE: return new FixedCycle(infra);
                         case PERCENTAGE: return new PercentageQue(infra);
                         case TESTDEBUG: return new TestDebug(infra);
+                        case TESTDEBUG2SEGMENT: return new TestDebug_2segment(infra);
                         //
 		}
 	   	throw new InfraException

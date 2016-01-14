@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MDPLearner;
+package MDPPreprocessor;
 
 import java.io.IOException;
 
@@ -21,6 +21,12 @@ public class Debugger {
         Preprocessor prep=new Preprocessor();
         prep.loadSimulationRecordWNullRemover("State-Action Debug.txt");
         prep.testPrint();
+        
+        //testing transition counter
+        TransitionCounter trans=new TransitionCounter();
+        trans.setArrTSAC(prep.arrTSAC);
+        System.out.println(trans.countStateByAction("LLLL", "HLLL", "0"));
+        System.out.println(trans.countState("HHHH"));
     }
     
 }
