@@ -9,7 +9,6 @@ package MDPPreprocessor;
  *
  * @author Yorozuya
  */
-public class TransitionProb {
-    String state;
-    double transProb;
+public class Driver {
+    
 }

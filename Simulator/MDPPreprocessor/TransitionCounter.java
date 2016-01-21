@@ -12,8 +12,10 @@ import java.util.ArrayList;
  * @author Yorozuya
  */
 public class TransitionCounter {
+    //the most importand variable in the whole package screen
     ArrayList<TuppleStateActionContainerSingleState> arrTSAC=new ArrayList<>();
-
+    //OR IN OTHER WORDS THIS IS THE FRIGGIN ENVIRONMENNTTT
+    
     public TransitionCounter() {
     }
 
@@ -24,8 +26,18 @@ public class TransitionCounter {
     public void setArrTSAC(ArrayList<TuppleStateActionContainerSingleState> arrTSAC) {
         this.arrTSAC = arrTSAC;
     }
-
-    public int countStateByAction(String startState, String nextState, String action){
+    
+    public int countActionByState(String startState, String action){
+        int count=0;
+        for(int i=0; i<arrTSAC.size(); i++){
+            if(arrTSAC.get(i).getState().equals(startState)&&arrTSAC.get(i).getAction().equals(action)){
+                count++;
+            }
+        }
+        return count;
+    }
+    
+    public int countNextStateByAction(String startState, String nextState, String action){
         int count=0;
         for(int i=0; i<arrTSAC.size(); i++){
             if(arrTSAC.get(i).getState().equals(startState)&&arrTSAC.get(i).getAction().equals(action)){
@@ -38,7 +50,8 @@ public class TransitionCounter {
         return count;
     }
     
-    public int countState(String state){
+    
+    public int countState(String state){//lol wtf is this function for
         int count=0;
         for(int i=0; i<arrTSAC.size(); i++){
             if(arrTSAC.get(i).getState().equals(state)){
@@ -48,5 +61,7 @@ public class TransitionCounter {
         return count;
     }
     
-    
+    public double countTransProb(String startState, String nextState, String action){
+        return (double)countNextStateByAction(startState, nextState, action)/countActionByState(startState, action);
+    }
 }

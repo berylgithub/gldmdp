@@ -25,6 +25,10 @@ public class Preprocessor {
     public void setArrTSAC(ArrayList<TuppleStateActionContainerSingleState> arrTSAC) {
         this.arrTSAC = arrTSAC;
     }
+
+    public ArrayList<TuppleStateActionContainerSingleState> getArrTSAC() {
+        return arrTSAC;
+    }
     
     
     public void loadSimulationRecordWNullRemover(String url) throws FileNotFoundException, IOException{
