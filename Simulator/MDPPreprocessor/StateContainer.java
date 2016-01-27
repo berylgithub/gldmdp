@@ -66,7 +66,7 @@ public class StateContainer {
     public void countThisTransProb(TransitionCounter tC, UniqueStatesContainer uSC){
         ArrayList<TransitionProbContainer> tempArrTP=new ArrayList<>();
         for(int i=0; i<uSC.getStatesString().size(); i++){
-            for(int j=0; j<4; j++){
+            for(int j=0; j<4; j++){ //number of action = 4 (4 road)
                 TransitionProbContainer tempTPObj=new TransitionProbContainer(this.getState(), Integer.toString(j), tC.countTransProb(this.getState(), uSC.getStatesString().get(i), Integer.toString(j)));
                 tempArrTP.add(tempTPObj);
             }

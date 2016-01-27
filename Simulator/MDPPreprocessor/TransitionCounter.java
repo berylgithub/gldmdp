@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class TransitionCounter {
     //the most importand variable in the whole package screen
     ArrayList<TuppleStateActionContainerSingleState> arrTSAC=new ArrayList<>();
-    //OR IN OTHER WORDS THIS IS THE FRIGGIN ENVIRONMENNTTT
+    //OR IN OTHER WORDS THIS IS THE ENVIRONMENNT
     
     public TransitionCounter() {
     }
@@ -41,9 +41,11 @@ public class TransitionCounter {
         int count=0;
         for(int i=0; i<arrTSAC.size(); i++){
             if(arrTSAC.get(i).getState().equals(startState)&&arrTSAC.get(i).getAction().equals(action)){
-                String tempNextState=arrTSAC.get(i+1).getState();
-                if(tempNextState.equals(nextState)){
-                    count++;
+                if(i<arrTSAC.size()-1){
+                    String tempNextState=arrTSAC.get(i+1).getState();
+                    if(tempNextState.equals(nextState)){
+                        count++;
+                    }
                 }
             }
         }
