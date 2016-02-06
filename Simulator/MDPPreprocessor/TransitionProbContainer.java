@@ -10,10 +10,25 @@ package MDPPreprocessor;
  * @author Yorozuya
  */
 public class TransitionProbContainer {
-    String state, action;
+    String state, action, nextState;
     double transProb;
 
     public TransitionProbContainer() {
+    }
+
+    public TransitionProbContainer(String state, String action, String nextState, double transProb) {
+        this.state = state;
+        this.action = action;
+        this.nextState = nextState;
+        this.transProb = transProb;
+    }
+
+    public String getNextState() {
+        return nextState;
+    }
+
+    public void setNextState(String nextState) {
+        this.nextState = nextState;
     }
 
     

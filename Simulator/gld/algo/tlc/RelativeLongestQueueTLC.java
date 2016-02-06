@@ -58,19 +58,19 @@ public class RelativeLongestQueueTLC extends TLController
 	 */	
 	public TLDecision[][] decideTLs()
 	{
-		TLDecision tldec;
-		Drivelane lane;
-		int num_lanes;
-		
-		for (int i=0; i < num_nodes; i++) {
-			num_lanes = tld[i].length;
-			for(int j=0; j < num_lanes; j++) {
-				tldec = tld[i][j];
-				lane = tldec.getTL().getLane();
-				tldec.setGain(((float)lane.getNumBlocksWaiting())/((float)lane.getLength()));
-			}
-		}
-		return tld;
+            TLDecision tldec;
+            Drivelane lane;
+            int num_lanes;
+
+            for (int i=0; i < num_nodes; i++) {
+                num_lanes = tld[i].length;
+                for(int j=0; j < num_lanes; j++) {
+                    tldec = tld[i][j];
+                    lane = tldec.getTL().getLane();
+                    tldec.setGain(((float)lane.getNumBlocksWaiting())/((float)lane.getLength()));
+                }
+            }
+            return tld;
 	}
 
 	public void updateRoaduserMove(Roaduser _ru, Drivelane _prevlane, Sign _prevsign, int _prevpos, Drivelane _dlanenow, Sign _signnow, int _posnow, PosMov[] posMovs, Drivelane desired)

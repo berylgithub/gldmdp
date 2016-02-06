@@ -79,7 +79,7 @@ public class TestDebug_2segment extends TLController {
             for (int j = 0; j < num_lanes; j++) {
                 
                 tSAC.arrState.add(StateSetter(tld[i][j]));
-                
+                tld[i][j].setGain(GainSetter(StateSetter(tld[i][j])));
 
                 if(tld[i][j].getTL().getLane().getSign().getState()==true){
                     tSAC.setAction(""+j);
@@ -164,6 +164,18 @@ public class TestDebug_2segment extends TLController {
         return state;
         
     }
+    
+    public float GainSetter(String state){
+        float gain=0;
+        if(state.equals("L")){
+            gain=1;
+        }
+        else if(state.equals("H")){
+            gain=2;
+        }
+        return gain;
+    }
+    
     public void updateRoaduserMove(Roaduser _ru, Drivelane _prevlane, Sign _prevsign, int _prevpos, Drivelane _dlanenow, Sign _signnow, int _posnow, PosMov[] posMovs, Drivelane desired) {
         // No needed
 

@@ -6,6 +6,7 @@
 package MDPPreprocessor;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  *
@@ -28,12 +29,15 @@ public class DriverMain {
         tSCount.setArrTSAC(prep.getArrTSAC());
         
         //create States from environments
+        PrintWriter printer=new PrintWriter("Transition Probability.txt");
         StateContainer[] sCS=new StateContainer[uSC.getStatesString().size()];
         for(int i=0; i<uSC.getStatesString().size(); i++){
             sCS[i]=new StateContainer(uSC.getStatesString().get(i));
             sCS[i].countThisTransProb(tSCount, uSC);
+            sCS[i].printTransProb(printer);
             System.out.println(sCS[i].getState());
         }
+        printer.close();
         
     }
     

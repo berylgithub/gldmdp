@@ -5,6 +5,8 @@
  */
 package MDPPreprocessor;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 /**
@@ -66,12 +68,19 @@ public class StateContainer {
     public void countThisTransProb(TransitionCounter tC, UniqueStatesContainer uSC){
         ArrayList<TransitionProbContainer> tempArrTP=new ArrayList<>();
         for(int i=0; i<uSC.getStatesString().size(); i++){
-            for(int j=0; j<4; j++){ //number of action = 4 (4 road)
-                TransitionProbContainer tempTPObj=new TransitionProbContainer(this.getState(), Integer.toString(j), tC.countTransProb(this.getState(), uSC.getStatesString().get(i), Integer.toString(j)));
+            for(int j=0; j<4; j++){ //number of action = 4 (4 road per junction)
+                TransitionProbContainer tempTPObj=new TransitionProbContainer(this.getState(), Integer.toString(j), uSC.getStatesString().get(i), tC.countTransProb(this.getState(), uSC.getStatesString().get(i), Integer.toString(j)));
                 tempArrTP.add(tempTPObj);
             }
         }
         arrTransProb=tempArrTP;
+    }
+    
+    public void printTransProb(PrintWriter printer) throws FileNotFoundException{
+        for(int i=0; i<arrTransProb.size(); i++){
+            printer.println(this.getState()+"\t"+this.getTransProb().get(i).getAction()+"\t"+this.getTransProb().get(i).getTransProb()+"\t"+this.getTransProb().get(i).getNextState());
+        }
+        printer.println();
     }
     
     
