@@ -17,12 +17,24 @@ public class StateContainer {
     String state, bestAction;
     ArrayList<TransitionProbContainer> arrTransProb=new ArrayList<>();
     double reward;
+    double[] utility;
+
+    public StateContainer(String state, String bestAction, double reward, double[] utility) {
+        this.state = state;
+        this.bestAction = bestAction;
+        this.reward = reward;
+        this.utility = utility;
+    }
     
     public StateContainer() {
+        this.reward=0;
+        setUtilityZero();
     }
 
     public StateContainer(String state) {
         this.state = state;
+        this.reward=0;
+        setUtilityZero();
     }
     
     public StateContainer(String state, String bestAction, double reward) {
@@ -63,6 +75,20 @@ public class StateContainer {
         this.reward = reward;
     }
     
+    public double[] getUtility() {
+        return utility;
+    }
+
+    public void setUtility(double[] utility) {
+        this.utility = utility;
+    }
+    
+    public void setUtilityZero(){
+        utility=new double[2];
+        for(int i=0; i<utility.length; i++){
+            utility[i]=0;
+        }
+    }
     
     //method buat semua Action, sementara not dynamic
     public void countThisTransProb(TransitionCounter tC, UniqueStatesContainer uSC){
