@@ -17,9 +17,9 @@ public class StateContainer {
     String state, bestAction;
     ArrayList<TransitionProbContainer> arrTransProb=new ArrayList<>();
     double reward;
-    double[] utility;
+    double utility;
 
-    public StateContainer(String state, String bestAction, double reward, double[] utility) {
+    public StateContainer(String state, String bestAction, double reward, double utility) {
         this.state = state;
         this.bestAction = bestAction;
         this.reward = reward;
@@ -41,6 +41,7 @@ public class StateContainer {
         this.state = state;
         this.bestAction = bestAction;
         this.reward = reward;
+        setUtilityZero();
     }
 
     public String getState() {
@@ -75,19 +76,16 @@ public class StateContainer {
         this.reward = reward;
     }
     
-    public double[] getUtility() {
+    public double getUtility() {
         return utility;
     }
 
-    public void setUtility(double[] utility) {
+    public void setUtility(double utility) {
         this.utility = utility;
     }
     
     public void setUtilityZero(){
-        utility=new double[2];
-        for(int i=0; i<utility.length; i++){
-            utility[i]=0;
-        }
+        this.utility=0;
     }
     
     //method buat semua Action, sementara not dynamic
@@ -109,5 +107,8 @@ public class StateContainer {
         printer.println();
     }
     
-    
+    public void printState(PrintWriter printer){
+        System.out.println(this.getState()+"\t"+this.getBestAction()+"\t"+this.getUtility());
+        printer.println(this.getState()+"\t"+this.getBestAction()+"\t"+this.getUtility());
+    }
 }
