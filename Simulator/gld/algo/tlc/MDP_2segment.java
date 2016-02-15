@@ -46,6 +46,8 @@ public class MDP_2segment extends TLController {
     int numCycle;
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
+    
+    ArrayList<StateBestActionContainer> arrSBAC=new ArrayList<>();
 //    ArrayList<StateSeqContainer> arrSSC=new ArrayList<>();
 //    ArrayList<ActionSeqContainer> arrASC=new ArrayList<>();
             /**
@@ -54,7 +56,7 @@ public class MDP_2segment extends TLController {
              * @param The model being used.
              */
 
-    public MDP_2segment(Infrastructure infras) {
+    public MDP_2segment(Infrastructure infras) throws IOException {
         super(infras);
         numCycle = infras.getCurCycle();
         
@@ -63,7 +65,12 @@ public class MDP_2segment extends TLController {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
             }
         }
-
+        arrSBAC=loadActionFile("Value Iteration Result.txt");
+        //test load array of result
+        for(int i=0; i<arrSBAC.size(); i++){
+            System.out.println(arrSBAC.get(i).getState()+" "+arrSBAC.get(i).getAction());
+        }
+        
     }
 
     /**
@@ -71,44 +78,31 @@ public class MDP_2segment extends TLController {
      * waiting queue. The longer the queue, the higher the Q-value.
      */
     public TLDecision[][] decideTLs() {
-
         int num_lanes, num_nodes = tld.length;
         for (int i = 0; i < num_nodes; i++) {
             num_lanes = tld[i].length;
             
-            TuppleStateActionConainer tSAC=new TuppleStateActionConainer();
-            
+            String tempState="";
             for (int j = 0; j < num_lanes; j++) {
-                
-                tSAC.arrState.add(StateSetter(tld[i][j]));
-                tld[i][j].setGain(GainSetter(StateSetter(tld[i][j])));
-
-                if(tld[i][j].getTL().getLane().getSign().getState()==true){
-                    tSAC.setAction(""+j);
-                }
-                
+                tempState=tempState+StateSetter(tld[i][j]);
             }
-            arrTSAC.add(tSAC);
+            System.out.println("State = "+tempState);
+            
+            
+            //POLICY APPLIER
+            for(int k=0; k<arrSBAC.size(); k++){
+                int laneNumber=0;
+                if(tempState.equals(arrSBAC.get(k).getState())){
+                    laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
+                    tld[i][laneNumber].setGain(5);
+                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber);
+                }
+            }
+            //END OF POLICY APPLIER
+            
         }
-//        try {
-//            PrintWriter testPrint=new PrintWriter("State-Action Debug.txt");
-//            for(int i=0; i<arrTSAC.size(); i++){
-//                System.out.print(arrTSAC.get(i).getAction()+"\t");
-//                testPrint.write(arrTSAC.get(i).getAction()+"\t");
-//                for(int j=0; j<arrTSAC.get(i).arrState.size(); j++){
-//                    testPrint.write(arrTSAC.get(i).arrState.get(j));
-//                    System.out.print(arrTSAC.get(i).arrState.get(j));
-//                }
-//                System.out.println();
-//                testPrint.println();
-//            }
-//            testPrint.close();
-//        } catch (FileNotFoundException ex) {
-//            Logger.getLogger(MDP_2segment.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//        
-//        System.out.println("");
-//
+        //empty the temp Var<---nevermind LOL
+        
         return tld;
 
     }
@@ -182,19 +176,17 @@ public class MDP_2segment extends TLController {
     }
     public ArrayList<StateBestActionContainer> loadActionFile(String url) throws FileNotFoundException, IOException{
         ArrayList<StateBestActionContainer> tempArrSBAC=new ArrayList<>();
-        BufferedReader br = new BufferedReader(new java.io.FileReader("ManualTransProb.txt"));
+        BufferedReader br = new BufferedReader(new java.io.FileReader(url));
         String line;
         String[] splitLine;
-        ArrayList<TransitionProbContainer> tempArrTPC=new ArrayList<>();
         while ((line = br.readLine()) != null) {
             splitLine=line.split("\t");
-            if(!splitLine[0].equals("null")){
-                TransitionProbContainer tempTPC= new TransitionProbContainer(splitLine[0], splitLine[1], splitLine[3], Double.parseDouble(splitLine[2]));
-                tempArrTPC.add(tempTPC);
-            }
+            StateBestActionContainer tempSBAC=new StateBestActionContainer(splitLine[0], splitLine[2]);
+            tempArrSBAC.add(tempSBAC);
         }
         return tempArrSBAC;
     }
+    
     public String StateSetter(TLDecision tld){
         String state = null;
         double percentage=(double)tld.getTL().getLane().getNumBlocksWaiting()/tld.getTL().getLane().getLength();
@@ -219,8 +211,9 @@ public class MDP_2segment extends TLController {
         return gain;
     }
     
+    
     public void updateRoaduserMove(Roaduser _ru, Drivelane _prevlane, Sign _prevsign, int _prevpos, Drivelane _dlanenow, Sign _signnow, int _posnow, PosMov[] posMovs, Drivelane desired) {
-        // No needed
+        // No needed <---YEP U'RRE RIGHT
 
     }
 

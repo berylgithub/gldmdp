@@ -22,9 +22,12 @@ package gld.algo.tlc;
 import gld.infra.InfraException;
 import gld.infra.Infrastructure;
 import gld.utils.StringUtils;
+import java.io.IOException;
 import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class TLCFactory
 {
@@ -68,7 +71,8 @@ public class TLCFactory
                 FIXEDCYCLE=32,
                 PERCENTAGE=33,
                 TESTDEBUG=34,
-                TESTDEBUG2SEGMENT=35;
+                TESTDEBUG2SEGMENT=35,
+                MDP2SEGMENT=36;
 
 	protected static final String[] tlcDescs = {
 		"Random",
@@ -108,6 +112,7 @@ public class TLCFactory
         "Percentage Queue",
         "Test Debug",
         "Test Debug 2 Segment",
+        "MDP 2 segment per lane"
 	};
 
 	protected static final String[] xmlNames = {
@@ -149,6 +154,7 @@ public class TLCFactory
         PercentageQue.shortXMLName,
         TestDebug.shortXMLName,
         TestDebug_2segment.shortXMLName,
+        MDP_2segment.shortXMLName
 	};
 
 
@@ -162,7 +168,7 @@ public class TLCFactory
 		{RLSARSA1,RLSARSA2,RLSARSA3,RLSARSA4,RLSARSA5,RLSARSA6},
 		{ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
 		{GENNEURAL},
-                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT},
+                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT},
                 
 	};
 
@@ -281,7 +287,15 @@ public class TLCFactory
                         case PERCENTAGE: return new PercentageQue(infra);
                         case TESTDEBUG: return new TestDebug(infra);
                         case TESTDEBUG2SEGMENT: return new TestDebug_2segment(infra);
+                            
+                        case MDP2SEGMENT: { 
+                    try {
+                        return new MDP_2segment(infra);
                         //
+                    } catch (IOException ex) {
+                        Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
 		}
 	   	throw new InfraException
     			("The TLCFactory can't make TLC's of type "+algoId);
