@@ -14,7 +14,7 @@ import java.util.Collections;
  */
 public class ValueIteration {
     StateContainer sCS[];
-    double discount, error, delta, threshold;
+    double discount, error, delta, threshold; //delta must be zero for the first iteration
     
     public ValueIteration() {
     }
@@ -90,9 +90,17 @@ public class ValueIteration {
     
     public double calUtilityPerStateAction(StateContainer sC, String action){
         double tempUtil=0;
+        StateContainer tempSC=null;
         for(int i=0; i<sC.arrTransProb.size(); i++){
             if(sC.arrTransProb.get(i).getAction().equals(action)){
-                tempUtil=tempUtil+(sC.arrTransProb.get(i).getTransProb()*(searchState(sC.arrTransProb.get(i).getNextState()).getUtility())); //searchState can ONLY be done in environment, so i can't place this mthod at stateContainer :p, man im confused
+                tempSC=searchState(sC.arrTransProb.get(i).getNextState());
+                //debugger
+                //System.out.println(sC.getState()+" "+tempSC.getState());
+                //
+                tempUtil=tempUtil+(sC.arrTransProb.get(i).getTransProb()*tempSC.getUtility()); //searchState can ONLY be done in environment, so i can't place this mthod at stateContainer :p, man im confused
+                //debugger
+                //System.out.println(tempUtil);
+                //
             }
         }
         return tempUtil;
@@ -119,23 +127,62 @@ public class ValueIteration {
         
         //R[i]+max(Mij*V(j))
         double maxVal=arrTempUtil.get(arrTempUtil.size()-1);
-        tempStateUtil=sC.getReward()+maxVal;
+        tempStateUtil=sC.getReward()+(discount*maxVal);
         return tempStateUtil;
     }
     //static
     
     //main method to do valueIteration
     public void IterateValue(){
+        int n=0;
         do {            
+            delta=0;
+            System.out.println("Iteration-"+n);
             double tempUtilState=0;
             for(int i=0; i<sCS.length; i++){
                 tempUtilState=calUtilityPerState(sCS[i]);
                 if(Math.sqrt(Math.pow((tempUtilState-sCS[i].getUtility()), 2))>delta){
-                    sCS[i].setUtility(tempUtilState);
-                    delta=tempUtilState;
+                    delta=Math.sqrt(Math.pow((tempUtilState-sCS[i].getUtility()), 2));
                 }
+                sCS[i].setUtility(tempUtilState);
+                //
+                //debugger
+                System.out.println(sCS[i].getState()+"\t"+sCS[i].getUtility());
+                System.out.println("delta : "+delta);
+                //
             }
-        } while (delta<threshold);
+            //debugger
+            System.out.println("final delta this iteration : "+delta);
+            System.out.println("threshold : "+threshold);
+            System.out.println("");
+            n++;
+        } while (delta>threshold); //until delta < threshold(error)
         
+    }
+    
+    public void IterateValue2(int iteration){
+        //debugger
+        for(int n=0; n<iteration; n++){
+            delta=0;
+            System.out.println("Iteration-"+n);
+            double tempUtilState=0;
+            for(int i=0; i<sCS.length; i++){
+                tempUtilState=calUtilityPerState(sCS[i]);
+                if(Math.sqrt(Math.pow((tempUtilState-sCS[i].getUtility()), 2))>delta){
+                    delta=Math.sqrt(Math.pow((tempUtilState-sCS[i].getUtility()), 2));
+                }
+                sCS[i].setUtility(tempUtilState);
+                //
+                //debugger
+                System.out.println(sCS[i].getState()+"\t"+sCS[i].getUtility());
+                System.out.println("delta : "+delta);
+                //
+            }
+            //debugger
+            System.out.println("final delta this iteration : "+delta);
+            System.out.println("threshold : "+threshold);
+            System.out.println("");
+            //
+        }
     }
 }
