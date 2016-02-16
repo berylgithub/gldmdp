@@ -100,6 +100,13 @@ public class MDP_2segment extends TLController {
             }
             //END OF POLICY APPLIER
             
+            //STUCK HANDLER, dunno dude this algorithm cause the traffic to stuck at one point of time step (maybe coz of the action)
+            for(int j=0; j<tld[i].length; j++){
+                if((double)tld[i][j].getTL().getLane().getNumBlocksWaiting()/tld[i][j].getTL().getLane().getLength()>0.8){
+                    tld[i][j].setGain(5);
+                }
+            }
+            //end of stuck handler
         }
         //empty the temp Var<---nevermind LOL
         
