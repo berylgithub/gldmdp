@@ -56,7 +56,19 @@ public class DriverMain {
         
         //set Environment
         Vi.setEnvReward("LLLL", 100);
-        Vi.setEnvReward("HHHH", -10);
+        Vi.setEnvReward("LLLH", 1);
+        Vi.setEnvReward("LLHL", 1);
+        Vi.setEnvReward("LHLL", 1);
+        Vi.setEnvReward("HLLL", 1);
+        Vi.setEnvReward("HHLL", -20);
+        Vi.setEnvReward("LHHL", -20);
+        Vi.setEnvReward("LLHH", -20);
+        Vi.setEnvReward("HLLH", -20);
+        Vi.setEnvReward("HHHL", -40);
+        Vi.setEnvReward("HHLH", -40);
+        Vi.setEnvReward("HLHH", -40);
+        Vi.setEnvReward("LHHH", -40);
+        Vi.setEnvReward("HHHH", -100);
         
         //LETS' DO IT !!!!!!!!!
         Vi.IterateValue();
