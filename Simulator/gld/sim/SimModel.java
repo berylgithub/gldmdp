@@ -259,7 +259,12 @@ public class SimModel extends Model implements XMLSerializable
 			moveAllRoadusers();
 			spawnNewRoadusers();
 //                        sgnctrl.switchSigns();
-			sgnctrl.switchSigns(curCycle);
+			//sgnctrl.switchSigns(curCycle);
+                        //edited for 5 steps
+                        if(curCycle%5==0){
+                            sgnctrl.switchSigns(curCycle);
+                        }
+                        //
 		}
 		catch (Exception e) {
 			System.out.println("The simulator made a booboo:");
