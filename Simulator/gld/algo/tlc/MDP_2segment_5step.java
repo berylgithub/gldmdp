@@ -93,12 +93,13 @@ public class MDP_2segment_5step extends TLController {
                     
                 }
             }
-            for(int j=0; j<num_lanes; j++){
-                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
-                    tld[i][manualPolicyApplier(tempState)].setGain(2);
-                }
-            }
-            System.out.println(manualPolicyApplier(tempState)+" "+tempState);
+//            for(int j=0; j<num_lanes; j++){
+//                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
+//                    tld[i][manualPolicyApplier(tempState)].setGain(2);
+////                    tld[i][0].setGain(2);
+//                }
+//            }
+//            System.out.println(manualPolicyApplier(tempState)+" "+tempState);
             
             
             
@@ -106,15 +107,14 @@ public class MDP_2segment_5step extends TLController {
             
             
             //POLICY APPLIER
-//            for(int k=0; k<arrSBAC.size(); k++){
-//                int laneNumber=0;
-//                if(tempState.equals(arrSBAC.get(k).getState())){
-//                    laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
-//                    tld[i][laneNumber].setGain(1);
-//                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber+" ");
-//                }
-//                
-//            }
+            for(int k=0; k<arrSBAC.size(); k++){
+                int laneNumber=0;
+                if(tempState.equals(arrSBAC.get(k).getState())){
+                    laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
+                    tld[i][laneNumber].setGain(1);
+                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber+" "+currentCycle);
+                }
+            }
             //END OF POLICY APPLIER
             
             //Manual Policy Applier
