@@ -254,7 +254,8 @@ public class SimController extends Controller implements Observer
 	{	setColearningEnabled(cat == 1);
 		try {
 			SimModel sm = getSimModel();
-			TLCFactory tlcf = new TLCFactory(sm.getInfrastructure(), sm.getRandom());
+			                 System.out.println("curent cycle: "+sm.getCurCycle());
+                        TLCFactory tlcf = new TLCFactory(sm.getInfrastructure(), sm.getRandom());
 			TLController tlc = tlcf.genTLC(cat, nr);
 			tlc.showSettings(this);
 			sm.setTLController(tlc);

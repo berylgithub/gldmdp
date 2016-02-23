@@ -45,7 +45,7 @@ public abstract class TLController implements XMLSerializable,TwoStageLoader
 	protected TLDecision[][] tld;
 	public int trackNode = -1;
 	protected int num_tls = 0;
-	
+	int currentCycle;
 	/**
 	 * The constructor for TL controllers
 	 * @param The infrastructure being used.
@@ -54,9 +54,16 @@ public abstract class TLController implements XMLSerializable,TwoStageLoader
 		TLController( Infrastructure i ) {
 		setInfrastructure(i);
 	}
-	
-        
+
                 
+        public int getCurrentCycle() {
+            return currentCycle;
+        }
+
+        public void setCurrentCycle(int currentCycle) {
+            this.currentCycle = currentCycle;
+        }
+	
                 
 	public Infrastructure getInfrastructure() 
 	{	return infra;

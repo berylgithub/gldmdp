@@ -82,9 +82,13 @@ public class SignController implements XMLSerializable
 	/**
 	 * Switch all the signs to their appropiate value.
 	 */
-	public void switchSigns()
+        
+        //EDITED 
+	public void switchSigns(int curCycle)
 	{
-		TLDecision[][] decisions = tlcontroller.decideTLs();
+            int currentCycle=curCycle;	
+            tlcontroller.setCurrentCycle(currentCycle);
+            TLDecision[][] decisions = tlcontroller.decideTLs();    
 		Node node = null;
 		Node[] nodes = infra.getAllNodes();
 		if (num_nodes>decisions.length)
@@ -103,7 +107,7 @@ public class SignController implements XMLSerializable
 			}
 		}
 	}
-	
+	//END OF EDITED METHOD
 	/** 
 	 * Switch the the non-TLsigns to their appropiate value according to normal traffic rules
 	 * On a normal junction traffic from the right gets priority

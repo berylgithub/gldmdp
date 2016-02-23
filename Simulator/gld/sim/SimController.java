@@ -189,7 +189,7 @@ public class SimController extends Controller implements Observer
 	public void update(Observable o, Object arg) 
 	{	int cycle=((SimModel)o).getCurCycle();
 		if (cycle!=0)
-			setStatus("Cycle: " + cycle);
+			setStatus("Cycle : " + cycle);
 	}
 
 	/** Returns the name of this controller extension. */

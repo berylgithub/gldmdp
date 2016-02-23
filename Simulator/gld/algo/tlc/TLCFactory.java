@@ -21,6 +21,7 @@ package gld.algo.tlc;
 
 import gld.infra.InfraException;
 import gld.infra.Infrastructure;
+import gld.sim.SimModel;
 import gld.utils.StringUtils;
 import java.io.IOException;
 import java.util.Dictionary;
@@ -33,7 +34,8 @@ public class TLCFactory
 {
 	protected Infrastructure infra;
 	protected Random random;
-
+        int curcycle;
+        SimModel simModel;
 	protected static final int
 		RANDOM=0,
  		LONGEST_QUEUE=1,
@@ -190,6 +192,12 @@ public class TLCFactory
 		this.random=random;
   	}
 
+    public TLCFactory(Infrastructure infra, SimModel simModel) {
+        this(infra);
+        this.simModel=simModel;
+    }
+        
+        
 	/** Looks up the id of a TLC algorithm by its description
 	  * @param algoDesc The description of the algorithm
 	  * @returns The id of the algorithm
@@ -290,6 +298,7 @@ public class TLCFactory
                             
                         case MDP2SEGMENT: { 
                     try {
+                        
                         return new MDP_2segment(infra);
                         //
                     } catch (IOException ex) {

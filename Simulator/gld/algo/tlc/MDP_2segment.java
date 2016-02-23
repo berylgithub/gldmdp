@@ -43,7 +43,7 @@ import java.util.logging.Logger;
 public class MDP_2segment extends TLController {
 
     public static final String shortXMLName = "MDP_2segment";
-    int numCycle;
+    
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
     
@@ -58,8 +58,6 @@ public class MDP_2segment extends TLController {
 
     public MDP_2segment(Infrastructure infras) throws IOException {
         super(infras);
-        numCycle = infras.getCurCycle();
-        
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
@@ -73,6 +71,11 @@ public class MDP_2segment extends TLController {
         
     }
 
+   
+
+    
+
+    
     /**
      * This implementation sets the Q-values according to the length of the
      * waiting queue. The longer the queue, the higher the Q-value.
@@ -88,28 +91,27 @@ public class MDP_2segment extends TLController {
             }
             System.out.println("State = "+tempState);
             
-            
             //POLICY APPLIER
             for(int k=0; k<arrSBAC.size(); k++){
                 int laneNumber=0;
                 if(tempState.equals(arrSBAC.get(k).getState())){
                     laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
                     tld[i][laneNumber].setGain(5);
-                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber);
+                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber+" ");
                 }
             }
             //END OF POLICY APPLIER
             
             //STUCK HANDLER, dunno dude this algorithm cause the traffic to stuck at one point of time stepa (maybe coz of the action)
-            for(int j=0; j<tld[i].length; j++){
-                if((double)tld[i][j].getTL().getLane().getNumBlocksWaiting()/tld[i][j].getTL().getLane().getLength()>0.8){
-                    tld[i][j].setGain(5);
-                }
-            }
+//            for(int j=0; j<tld[i].length; j++){
+//                if((double)tld[i][j].getTL().getLane().getNumBlocksWaiting()/tld[i][j].getTL().getLane().getLength()>0.8){
+//                    tld[i][j].setGain(5);
+//                }
+//            }
             //end of stuck handler
         }
         //empty the temp Var<---nevermind LOL
-        
+        System.out.println(this.currentCycle);
         return tld;
 
     }

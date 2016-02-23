@@ -258,7 +258,8 @@ public class SimModel extends Model implements XMLSerializable
 		    specialNodesDoStep();
 			moveAllRoadusers();
 			spawnNewRoadusers();
-			sgnctrl.switchSigns();
+//                        sgnctrl.switchSigns();
+			sgnctrl.switchSigns(curCycle);
 		}
 		catch (Exception e) {
 			System.out.println("The simulator made a booboo:");
@@ -737,7 +738,9 @@ public class SimModel extends Model implements XMLSerializable
 		{	thread.setSleepTime(myElement.getAttribute("speed").getIntValue());
 			simName=myElement.getAttribute("sim-name").getValue();
 			curCycle=myElement.getAttribute("current-cycle").getIntValue();
-			TLCFactory factory=new TLCFactory(infra);
+			//TLCFactory factory=new TLCFactory(infra);
+                        TLCFactory factory=new TLCFactory(infra, this);
+                        System.out.println(this.getCurCycle());
 			tlc = null;
 			
 		    try
@@ -770,6 +773,7 @@ public class SimModel extends Model implements XMLSerializable
     		sgnctrl.setTLC(tlc);
 		 }
 		 else {
+                    System.out.println("asd");
 			curCycle = 0;
 		 }
 		 while (loader.getNextElementName().equals("dispenser"))
