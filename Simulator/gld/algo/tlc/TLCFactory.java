@@ -74,7 +74,8 @@ public class TLCFactory
                 PERCENTAGE=33,
                 TESTDEBUG=34,
                 TESTDEBUG2SEGMENT=35,
-                MDP2SEGMENT=36;
+                MDP2SEGMENT=36,
+                TESTDEBUGNSEGMENT=37;
 
 	protected static final String[] tlcDescs = {
 		"Random",
@@ -114,7 +115,8 @@ public class TLCFactory
         "Percentage Queue",
         "Test Debug",
         "Test Debug 2 Segment",
-        "MDP 2 segment per lane"
+        "MDP 2 segment per lane",
+        "Test Debug n Segment",
 	};
 
 	protected static final String[] xmlNames = {
@@ -156,7 +158,8 @@ public class TLCFactory
         PercentageQue.shortXMLName,
         TestDebug.shortXMLName,
         TestDebug_2segment.shortXMLName,
-        MDP_2segment.shortXMLName
+        MDP_2segment.shortXMLName,
+        TestDebug_nsegment.shortXMLName,
 	};
 
 
@@ -170,7 +173,7 @@ public class TLCFactory
 		{RLSARSA1,RLSARSA2,RLSARSA3,RLSARSA4,RLSARSA5,RLSARSA6},
 		{ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
 		{GENNEURAL},
-                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT},
+                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT},
                 
 	};
 
@@ -192,10 +195,10 @@ public class TLCFactory
 		this.random=random;
   	}
 
-    public TLCFactory(Infrastructure infra, SimModel simModel) {
-        this(infra);
-        this.simModel=simModel;
-    }
+        public TLCFactory(Infrastructure infra, SimModel simModel) {
+            this(infra);
+            this.simModel=simModel;
+        }
         
         
 	/** Looks up the id of a TLC algorithm by its description
@@ -305,6 +308,7 @@ public class TLCFactory
                         Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
+                        case TESTDEBUGNSEGMENT : return new TestDebug_nsegment(infra);
 		}
 	   	throw new InfraException
     			("The TLCFactory can't make TLC's of type "+algoId);

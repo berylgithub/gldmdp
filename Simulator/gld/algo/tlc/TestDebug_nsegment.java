@@ -41,7 +41,7 @@ import java.util.logging.Logger;
 public class TestDebug_nsegment extends TLController {
 
     public static final String shortXMLName = "TestDebug-n-segment";
-    int numCycle;
+    int actionCounter;
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
 //    ArrayList<StateSeqContainer> arrSSC=new ArrayList<>();
@@ -54,7 +54,7 @@ public class TestDebug_nsegment extends TLController {
 
     public TestDebug_nsegment(Infrastructure infras) {
         super(infras);
-        numCycle = infras.getCurCycle();
+
         
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
@@ -90,7 +90,7 @@ public class TestDebug_nsegment extends TLController {
             
         }
         try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug.txt");
+            PrintWriter testPrint=new PrintWriter("State-Action Debug n-segment.txt");
             for(int i=0; i<arrTSAC.size(); i++){
                 System.out.print(arrTSAC.get(i).getAction()+"\t");
                 testPrint.write(arrTSAC.get(i).getAction()+"\t");

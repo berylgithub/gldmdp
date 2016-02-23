@@ -41,7 +41,7 @@ import java.util.logging.Logger;
 public class TestDebug_2segment extends TLController {
 
     public static final String shortXMLName = "TestDebug-2-segment";
-    int numCycle;
+    int actionCounter;
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
 //    ArrayList<StateSeqContainer> arrSSC=new ArrayList<>();
@@ -54,8 +54,7 @@ public class TestDebug_2segment extends TLController {
 
     public TestDebug_2segment(Infrastructure infras) {
         super(infras);
-        numCycle = infras.getCurCycle();
-        
+        actionCounter=0;
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
@@ -77,20 +76,21 @@ public class TestDebug_2segment extends TLController {
             TuppleStateActionConainer tSAC=new TuppleStateActionConainer();
             
             for (int j = 0; j < num_lanes; j++) {
-                
-                tSAC.arrState.add(StateSetter(tld[i][j]));
-                tld[i][j].setGain(GainSetter(StateSetter(tld[i][j])));
-
-                if(tld[i][j].getTL().getLane().getSign().getState()==true){
+                boolean tempCheck=checkAction(tld[i][j]);
+                if(tempCheck==true){
                     tSAC.setAction(""+j);
+                    for(int k=0; k<num_lanes; k++){
+                        tSAC.arrState.add(StateSetter(tld[i][k]));
+                        tld[i][k].setGain(GainSetter(StateSetter(tld[i][k])));
+                    }
+                    arrTSAC.add(tSAC);
                 }
-                
             }
-            arrTSAC.add(tSAC);
+            
             
         }
         try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug.txt");
+            PrintWriter testPrint=new PrintWriter("State-Action Debug_zzzzzzzzzzz.txt");
             for(int i=0; i<arrTSAC.size(); i++){
                 System.out.print(arrTSAC.get(i).getAction()+"\t");
                 testPrint.write(arrTSAC.get(i).getAction()+"\t");
@@ -106,8 +106,9 @@ public class TestDebug_2segment extends TLController {
             Logger.getLogger(TestDebug_2segment.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        System.out.println("");
-
+        System.out.println("Cycle = "+(currentCycle-1));
+        System.out.println("Action Counter = "+actionCounter);
+        actionCounter++;
         return tld;
 
     }
@@ -150,6 +151,16 @@ public class TestDebug_2segment extends TLController {
         
        
         
+    }
+    
+    public boolean checkAction(TLDecision tld){
+        boolean tempCheck=true;
+        if(tld.getTL().getLane().getSign().getState()==true){
+            tempCheck=true;
+        }
+        else tempCheck=false;
+        
+        return tempCheck;
     }
     
     public String StateSetter(TLDecision tld){
