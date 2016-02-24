@@ -81,16 +81,25 @@ public class TestDebug_2segment_5step extends TLController {
                     tSAC.setAction(""+j);
                     for(int k=0; k<num_lanes; k++){
                         tSAC.arrState.add(StateSetter(tld[i][k]));
-                        tld[i][k].setGain(GainSetter(StateSetter(tld[i][k])));
+                        //pseudo relative longest que
+                        //tld[i][k].setGain(GainSetter(StateSetter(tld[i][k])));
+                        //end of pseudo relative longest que
+                        tld[i][k].setGain(0);
+                        Random rand = new Random();
+                        int randomNum = rand.nextInt((10-0)+1)+0;
+                        tld[i][k].setGain((float)randomNum);
                     }
                     arrTSAC.add(tSAC);
                 }
             }
-            
-            
+            System.out.print("Gain : ");
+            for (int j = 0; j < num_lanes; j++) {
+                System.out.print(tld[i][j].getGain()+" ");
+            }
+            System.out.println("");
         }
         try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug_5-step.txt");
+            PrintWriter testPrint=new PrintWriter("State-Action Debug_5-step_random.txt");
             for(int i=0; i<arrTSAC.size(); i++){
                 System.out.print(arrTSAC.get(i).getAction()+"\t");
                 testPrint.write(arrTSAC.get(i).getAction()+"\t");
