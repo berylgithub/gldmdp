@@ -111,10 +111,24 @@ public class MDP_2segment_5step extends TLController {
                 int laneNumber=0;
                 if(tempState.equals(arrSBAC.get(k).getState())){
                     laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
-                    tld[i][laneNumber].setGain(1);
+                    for(int j=0; j<num_lanes; j++){
+                        tld[i][j].setGain(0);
+                    }
+                    tld[i][laneNumber].setGain(15);
                     System.out.println(arrSBAC.get(k).getState()+" "+laneNumber+" "+currentCycle);
                 }
             }
+            
+            for(int k=0; k<num_lanes; k++){
+                if(tld[i][k].getTL().getState()==true){
+                    System.out.println("Green = "+k);
+                    
+                }
+            }
+            for(int k=0; k<num_lanes; k++){
+                System.out.print(tld[i][k].getGain()+" ");
+            }
+            System.out.println("");
             //END OF POLICY APPLIER
             
             //Manual Policy Applier
