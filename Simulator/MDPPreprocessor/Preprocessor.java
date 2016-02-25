@@ -5,6 +5,7 @@
  */
 package MDPPreprocessor;
 
+import gld.algo.tlc.MDP_2segment;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -47,6 +48,20 @@ public class Preprocessor {
          }
         setArrTSAC(tempArrTSAC);
     }
+    
+    //ACTION FIXERRRR
+    public void shiftActionMinusOne(){
+        ArrayList<TuppleStateActionContainerSingleState> tempArrTSACSS=new ArrayList<>();
+        int i=0;
+        do{
+            TuppleStateActionContainerSingleState tempTSACSS=arrTSAC.get(i);
+            tempTSACSS.setAction(arrTSAC.get(i+1).getAction());
+            tempArrTSACSS.add(tempTSACSS);
+            i++;
+        }while(i<arrTSAC.size()-1);
+        arrTSAC=tempArrTSACSS;
+    }
+    //END OF ACTION FIXERRRRR
     
     public void testPrint(){
         for(int i=0; i<arrTSAC.size(); i++){

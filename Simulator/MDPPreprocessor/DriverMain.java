@@ -23,6 +23,7 @@ public class DriverMain {
         //initialize Unique States and Transition Counter from Environments
         Preprocessor prep=new Preprocessor();
         prep.loadSimulationRecordWNullRemover("State-Action Debug_5-step.txt");
+        prep.shiftActionMinusOne();
         UniqueStatesContainer uSC=new UniqueStatesContainer();
         uSC.setUniqueStatesStringFromEnvironment(prep.getArrTSAC());
         TransitionCounter tSCount=new TransitionCounter();
