@@ -22,7 +22,7 @@ public class DriverMain {
         
         //initialize Unique States and Transition Counter from Environments
         Preprocessor prep=new Preprocessor();
-        prep.loadSimulationRecordWNullRemover("State-Action Debug_5-step.txt");
+        prep.loadSimulationRecordWNullRemover("State-Action Debug_5-step_random.txt");
         prep.shiftActionMinusOne();
         UniqueStatesContainer uSC=new UniqueStatesContainer();
         uSC.setUniqueStatesStringFromEnvironment(prep.getArrTSAC());
@@ -30,7 +30,7 @@ public class DriverMain {
         tSCount.setArrTSAC(prep.getArrTSAC());
         
         //create States from environments + NaN remover
-        PrintWriter printer=new PrintWriter("Transition Probability_5-step.txt");
+        PrintWriter printer=new PrintWriter("Transition Probability_5-step_random.txt");
         StateContainer[] sCS=new StateContainer[uSC.getStatesString().size()];
         for(int i=0; i<uSC.getStatesString().size(); i++){
             sCS[i]=new StateContainer(uSC.getStatesString().get(i));
@@ -79,7 +79,7 @@ public class DriverMain {
             System.out.println(sCS[i].getState()+"\t"+sCS[i].getUtility()+"\t"+sCS[i].getBestAction());
         }
         
-        PrintWriter printer2=new PrintWriter("Value Iteration Result_5-step.txt");
+        PrintWriter printer2=new PrintWriter("Value Iteration Result_5-step_random.txt");
         printer2.println("State\tState's Utility\tBest Action");
         for(int i=0; i<sCS.length; i++){
             printer2.println(sCS[i].getState()+"\t"+sCS[i].getUtility()+"\t"+sCS[i].getBestAction());

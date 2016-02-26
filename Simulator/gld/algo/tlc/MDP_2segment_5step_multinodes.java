@@ -40,9 +40,9 @@ import java.util.logging.Logger;
  * @author Group Algorithms
  * @version 1.0
  */
-public class MDP_2segment_5step extends TLController {
+public class MDP_2segment_5step_multinodes extends TLController {
 
-    public static final String shortXMLName = "MDP_2segment_5step";
+    public static final String shortXMLName = "MDP_2segment_5step_multinodes";
     
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
@@ -56,7 +56,7 @@ public class MDP_2segment_5step extends TLController {
              * @param The model being used.
              */
 
-    public MDP_2segment_5step(Infrastructure infras) throws IOException {
+    public MDP_2segment_5step_multinodes(Infrastructure infras) throws IOException {
         super(infras);
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
@@ -297,6 +297,6 @@ public class MDP_2segment_5step extends TLController {
     }
 
     public String getXMLName() {
-        return "MDP_2segment_5step";
+        return "MDP_2segment_5step_multinodes";
     }
 }
