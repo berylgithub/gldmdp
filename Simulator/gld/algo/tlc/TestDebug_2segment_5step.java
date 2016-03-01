@@ -99,7 +99,7 @@ public class TestDebug_2segment_5step extends TLController {
             System.out.println("");
         }
         try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug_5-step_random_2.txt");
+            PrintWriter testPrint=new PrintWriter("State-Action Debug_5-step_random_testing.txt");
             for(int i=0; i<arrTSAC.size(); i++){
                 System.out.print(arrTSAC.get(i).getAction()+"\t");
                 testPrint.write(arrTSAC.get(i).getAction()+"\t");
