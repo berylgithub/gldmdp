@@ -63,7 +63,7 @@ public class MDP_2segment_5step_multinodes extends TLController {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
             }
         }
-        arrSBAC=loadActionFile("Value Iteration Result_5-step_random.txt");
+        arrSBAC=loadActionFile("Value Iteration Result_5-step_random_2.txt");
         //test load array of result
         for(int i=0; i<arrSBAC.size(); i++){
             System.out.println(arrSBAC.get(i).getState()+" "+arrSBAC.get(i).getAction());

@@ -1,0 +1,2194 @@
+ <model save-stats="false" saved-by="editor">
+  <infrastructure title="untitled" author="" comments="" height="3000" width="5000" file-version="1" num-specialnodes="6">
+   <array length="14" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure" container="1" name="lanes">
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="6" cycle-moved="-1" cycle-asked="-1" road-id="0" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="6">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="7" cycle-moved="-1" cycle-asked="-1" road-id="2" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="6">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="8" cycle-moved="-1" cycle-asked="-1" road-id="4" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="6">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="9" cycle-moved="-1" cycle-asked="-1" road-id="3" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="6">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="10" cycle-moved="-1" cycle-asked="-1" road-id="1" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="7">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="11" cycle-moved="-1" cycle-asked="-1" road-id="5" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="7">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="12" cycle-moved="-1" cycle-asked="-1" road-id="6" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="7">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="13" cycle-moved="-1" cycle-asked="-1" road-id="2" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+         </array>
+         <sign-tl type="1" state="false" node-id="7">
+         </sign-tl>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="0" cycle-moved="-1" cycle-asked="-1" road-id="3" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="false" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="false" null-value="false">
+       </element>
+         </array>
+         <sign-no type="2" state="false" node-id="0">
+         </sign-no>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="1" cycle-moved="-1" cycle-asked="-1" road-id="0" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="false" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="false" null-value="false">
+       </element>
+         </array>
+         <sign-no type="2" state="false" node-id="1">
+         </sign-no>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="2" cycle-moved="-1" cycle-asked="-1" road-id="1" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="false" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="false" null-value="false">
+       </element>
+         </array>
+         <sign-no type="2" state="false" node-id="2">
+         </sign-no>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="3" cycle-moved="-1" cycle-asked="-1" road-id="5" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="false" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="false" null-value="false">
+       </element>
+         </array>
+         <sign-no type="2" state="false" node-id="3">
+         </sign-no>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="4" cycle-moved="-1" cycle-asked="-1" road-id="6" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="false" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="false" null-value="false">
+       </element>
+         </array>
+         <sign-no type="2" state="false" node-id="4">
+         </sign-no>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+     <element type="9" value="gld.infra.Drivelane" null-value="false">
+     <lane id="5" cycle-moved="-1" cycle-asked="-1" road-id="4" type="3">
+         <array length="3" class="[Z" component-type="3" parent-name="model.infrastructure.lane" container="0" name="targets">
+       <element type="3" value="false" null-value="false">
+       </element>
+       <element type="3" value="true" null-value="false">
+       </element>
+       <element type="3" value="false" null-value="false">
+       </element>
+         </array>
+         <sign-no type="2" state="false" node-id="5">
+         </sign-no>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.lane" container="2" name="queue">
+         </array>
+     </lane>
+     </element>
+   </array>
+   <array length="8" class="[Lgld.infra.Node;" component-type="9" parent-name="model.infrastructure" container="0" name="nodes">
+     <element type="9" value="gld.infra.EdgeNode" null-value="false">
+     <node-edge node-id="0" x-pos="120" y-pos="428" type="1" road-is-alpha="false" road-id="3" position="1">
+         <spdata num-paths="10">
+       <array length="10" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="76" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="76" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="140" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="140" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="151" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="151" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="81" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="9" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="81" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node-edge" container="2" name="queue">
+         </array>
+         <array length="2" class="[Lgld.infra.SpawnFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="spawn-frequencies">
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="2" freq="0.05">
+           </spawnfreq>
+       </element>
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="1" freq="0.25">
+           </spawnfreq>
+       </element>
+         </array>
+         <array length="6" class="[[Lgld.infra.DestFrequency;" component-type="10" parent-name="model.infrastructure.node-edge" container="0" name="dest-frequencies">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+         </array>
+     </node-edge>
+     </element>
+     <element type="9" value="gld.infra.EdgeNode" null-value="false">
+     <node-edge node-id="1" x-pos="536" y-pos="13" type="1" road-is-alpha="true" road-id="0" position="2">
+         <spdata num-paths="10">
+       <array length="10" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="76" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="76" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="138" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="138" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="149" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="149" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="141" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="141" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="6" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <road alpha-node="1" beta-node="6" id="0" length="37" num-turns="1">
+       <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+           <element type="9" value="gld.infra.Turn" null-value="false">
+         <turn x-pos="541" y-pos="217" angle="4.745811180594137" rel-pos="18.0">
+         </turn>
+           </element>
+       </array>
+       <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+           <element type="0" value="1" null-value="false">
+           </element>
+       </array>
+       <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+           <element type="0" value="6" null-value="false">
+           </element>
+       </array>
+         </road>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node-edge" container="2" name="queue">
+         </array>
+         <array length="2" class="[Lgld.infra.SpawnFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="spawn-frequencies">
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="2" freq="0.05">
+           </spawnfreq>
+       </element>
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="1" freq="0.25">
+           </spawnfreq>
+       </element>
+         </array>
+         <array length="6" class="[[Lgld.infra.DestFrequency;" component-type="10" parent-name="model.infrastructure.node-edge" container="0" name="dest-frequencies">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+         </array>
+     </node-edge>
+     </element>
+     <element type="9" value="gld.infra.EdgeNode" null-value="false">
+     <node-edge node-id="2" x-pos="1206" y-pos="-2" type="1" road-is-alpha="true" road-id="1" position="2">
+         <spdata num-paths="10">
+       <array length="10" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="140" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="140" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="138" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="138" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="87" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="87" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="10" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <road alpha-node="2" beta-node="7" id="1" length="38" num-turns="1">
+       <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+           <element type="9" value="gld.infra.Turn" null-value="false">
+         <turn x-pos="1212" y-pos="210" angle="4.747258561939479" rel-pos="19.0">
+         </turn>
+           </element>
+       </array>
+       <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+           <element type="0" value="2" null-value="false">
+           </element>
+       </array>
+       <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+           <element type="0" value="10" null-value="false">
+           </element>
+       </array>
+         </road>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node-edge" container="2" name="queue">
+         </array>
+         <array length="2" class="[Lgld.infra.SpawnFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="spawn-frequencies">
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="2" freq="0.05">
+           </spawnfreq>
+       </element>
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="1" freq="0.25">
+           </spawnfreq>
+       </element>
+         </array>
+         <array length="6" class="[[Lgld.infra.DestFrequency;" component-type="10" parent-name="model.infrastructure.node-edge" container="0" name="dest-frequencies">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+         </array>
+     </node-edge>
+     </element>
+     <element type="9" value="gld.infra.EdgeNode" null-value="false">
+     <node-edge node-id="3" x-pos="1750" y-pos="416" type="1" road-is-alpha="false" road-id="5" position="3">
+         <spdata num-paths="10">
+       <array length="10" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="151" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="151" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="149" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="149" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="87" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="87" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="90" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="90" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="154" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="11" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="154" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node-edge" container="2" name="queue">
+         </array>
+         <array length="2" class="[Lgld.infra.SpawnFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="spawn-frequencies">
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="2" freq="0.05">
+           </spawnfreq>
+       </element>
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="1" freq="0.25">
+           </spawnfreq>
+       </element>
+         </array>
+         <array length="6" class="[[Lgld.infra.DestFrequency;" component-type="10" parent-name="model.infrastructure.node-edge" container="0" name="dest-frequencies">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+         </array>
+     </node-edge>
+     </element>
+     <element type="9" value="gld.infra.EdgeNode" null-value="false">
+     <node-edge node-id="4" x-pos="1238" y-pos="876" type="1" road-is-alpha="false" road-id="6" position="0">
+         <spdata num-paths="10">
+       <array length="10" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="141" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="141" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="90" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="90" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="146" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="12" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="146" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node-edge" container="2" name="queue">
+         </array>
+         <array length="2" class="[Lgld.infra.SpawnFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="spawn-frequencies">
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="2" freq="0.05">
+           </spawnfreq>
+       </element>
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="1" freq="0.25">
+           </spawnfreq>
+       </element>
+         </array>
+         <array length="6" class="[[Lgld.infra.DestFrequency;" component-type="10" parent-name="model.infrastructure.node-edge" container="0" name="dest-frequencies">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+         </array>
+     </node-edge>
+     </element>
+     <element type="9" value="gld.infra.EdgeNode" null-value="false">
+     <node-edge node-id="5" x-pos="557" y-pos="881" type="1" road-is-alpha="false" road-id="4" position="0">
+         <spdata num-paths="10">
+       <array length="10" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="81" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="81" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="79" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="143" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="154" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="154" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="146" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="8" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="146" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node-edge" container="2" name="queue">
+         </array>
+         <array length="2" class="[Lgld.infra.SpawnFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="spawn-frequencies">
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="2" freq="0.05">
+           </spawnfreq>
+       </element>
+       <element type="9" value="gld.infra.SpawnFrequency" null-value="false">
+           <spawnfreq ru-type="1" freq="0.25">
+           </spawnfreq>
+       </element>
+         </array>
+         <array length="6" class="[[Lgld.infra.DestFrequency;" component-type="10" parent-name="model.infrastructure.node-edge" container="0" name="dest-frequencies">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="3" class="[Lgld.infra.DestFrequency;" component-type="9" parent-name="model.infrastructure.node-edge" container="0" name="none">
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="1" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="2" freq="0.2">
+                 </destfreq>
+         </element>
+         <element type="9" value="gld.infra.DestFrequency" null-value="false">
+                 <destfreq ru-type="4" freq="0.2">
+                 </destfreq>
+         </element>
+           </array>
+       </element>
+         </array>
+     </node-edge>
+     </element>
+     <element type="9" value="gld.infra.Junction" null-value="false">
+     <node-junction node-id="6" x-pos="547" y-pos="422" type="2" width="4">
+         <spdata num-paths="12">
+       <array length="12" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="0" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="0" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="1" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="1" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="13" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="101" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="13" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="101" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="13" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="112" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="13" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="112" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="13" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="104" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="13" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="104" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="5" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="5" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <array length="3" class="[Lgld.infra.Road;" component-type="9" parent-name="model.infrastructure.node-junction" container="0" name="alpha-roads">
+       <element type="9" value="gld.infra.Road" null-value="false">
+           <road alpha-node="6" beta-node="7" id="2" length="63" num-turns="1">
+         <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+                 <element type="9" value="gld.infra.Turn" null-value="false">
+             <turn x-pos="882" y-pos="422" angle="6.283185307179586" rel-pos="31.0">
+             </turn>
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+                 <element type="0" value="7" null-value="false">
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+                 <element type="0" value="13" null-value="false">
+                 </element>
+         </array>
+           </road>
+       </element>
+       <element type="9" value="gld.infra.Road" null-value="false">
+           <road alpha-node="6" beta-node="0" id="3" length="39" num-turns="1">
+         <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+                 <element type="9" value="gld.infra.Turn" null-value="false">
+             <turn x-pos="333" y-pos="425" angle="3.1588819969480015" rel-pos="19.0">
+             </turn>
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+                 <element type="0" value="9" null-value="false">
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+                 <element type="0" value="0" null-value="false">
+                 </element>
+         </array>
+           </road>
+       </element>
+       <element type="9" value="gld.infra.Road" null-value="false">
+           <road alpha-node="6" beta-node="5" id="4" length="42" num-turns="1">
+         <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+                 <element type="9" value="gld.infra.Turn" null-value="false">
+             <turn x-pos="552" y-pos="651" angle="4.7387680842597595" rel-pos="20.0">
+             </turn>
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+                 <element type="0" value="8" null-value="false">
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+                 <element type="0" value="5" null-value="false">
+                 </element>
+         </array>
+           </road>
+       </element>
+         </array>
+         <array length="4" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="roads">
+       <element type="0" value="0" null-value="false">
+       </element>
+       <element type="0" value="2" null-value="false">
+       </element>
+       <element type="0" value="4" null-value="false">
+       </element>
+       <element type="0" value="3" null-value="false">
+       </element>
+         </array>
+         <array length="4" class="[[I" component-type="10" parent-name="model.infrastructure.node-junction" container="0" name="sign-configs">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="6" null-value="false">
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="7" null-value="false">
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="8" null-value="false">
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="9" null-value="false">
+         </element>
+           </array>
+       </element>
+         </array>
+         <array length="4" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="signs">
+       <element type="0" value="6" null-value="false">
+       </element>
+       <element type="0" value="7" null-value="false">
+       </element>
+       <element type="0" value="8" null-value="false">
+       </element>
+       <element type="0" value="9" null-value="false">
+       </element>
+         </array>
+     </node-junction>
+     </element>
+     <element type="9" value="gld.infra.Junction" null-value="false">
+     <node-junction node-id="7" x-pos="1218" y-pos="422" type="2" width="4">
+         <spdata num-paths="12">
+       <array length="12" class="[Ljava.lang.Object;" component-type="9" parent-name="model.infrastructure.node.spdata" container="1" name="paths">
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="7" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="102" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="0">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="7" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="102" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="7" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="100" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="1">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="7" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="100" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="2" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="2">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="2" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="3" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="3">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="3" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="4" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="4">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="4" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="0" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="2" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="7" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="105" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+           <element type="9" value="gld.infra.SPData$Path" null-value="false">
+         <path ru-type="1" exit-node="5">
+                 <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.spdata.path" container="0" name="lanes">
+             <element type="0" value="7" null-value="false">
+             </element>
+                 </array>
+                 <array length="1" class="[Ljava.lang.Integer;" component-type="4" parent-name="model.infrastructure.node.spdata.path" container="0" name="lengths">
+             <element type="4" value="105" null-value="false">
+             </element>
+                 </array>
+         </path>
+           </element>
+       </array>
+         </spdata>
+         <array length="2" class="[Lgld.infra.Road;" component-type="9" parent-name="model.infrastructure.node-junction" container="0" name="alpha-roads">
+       <element type="9" value="gld.infra.Road" null-value="false">
+           <road alpha-node="7" beta-node="3" id="5" length="49" num-turns="1">
+         <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+                 <element type="9" value="gld.infra.Turn" null-value="false">
+             <turn x-pos="1484" y-pos="419" angle="0.01327355668417457" rel-pos="24.0">
+             </turn>
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+                 <element type="0" value="11" null-value="false">
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+                 <element type="0" value="3" null-value="false">
+                 </element>
+         </array>
+           </road>
+       </element>
+       <element type="9" value="gld.infra.Road" null-value="false">
+           <road alpha-node="7" beta-node="4" id="6" length="41" num-turns="1">
+         <array length="1" class="[Lgld.infra.Turn;" component-type="9" parent-name="model.infrastructure.node.road" container="0" name="turns">
+                 <element type="9" value="gld.infra.Turn" null-value="false">
+             <turn x-pos="1228" y-pos="649" angle="4.765814028886189" rel-pos="20.0">
+             </turn>
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="alpha-lanes">
+                 <element type="0" value="12" null-value="false">
+                 </element>
+         </array>
+         <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node.road" container="0" name="beta-lanes">
+                 <element type="0" value="4" null-value="false">
+                 </element>
+         </array>
+           </road>
+       </element>
+         </array>
+         <array length="4" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="roads">
+       <element type="0" value="1" null-value="false">
+       </element>
+       <element type="0" value="5" null-value="false">
+       </element>
+       <element type="0" value="6" null-value="false">
+       </element>
+       <element type="0" value="2" null-value="false">
+       </element>
+         </array>
+         <array length="4" class="[[I" component-type="10" parent-name="model.infrastructure.node-junction" container="0" name="sign-configs">
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="10" null-value="false">
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="11" null-value="false">
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="12" null-value="false">
+         </element>
+           </array>
+       </element>
+       <element type="10" value="gld.xml.XMLArray" null-value="false">
+           <array length="1" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="none">
+         <element type="0" value="13" null-value="false">
+         </element>
+           </array>
+       </element>
+         </array>
+         <array length="4" class="[I" component-type="0" parent-name="model.infrastructure.node-junction" container="0" name="signs">
+       <element type="0" value="10" null-value="false">
+       </element>
+       <element type="0" value="11" null-value="false">
+       </element>
+       <element type="0" value="12" null-value="false">
+       </element>
+       <element type="0" value="13" null-value="false">
+       </element>
+         </array>
+     </node-junction>
+     </element>
+   </array>
+  </infrastructure>
+  <dispenser counter="30">
+   <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.dispenser" container="1" name="stack">
+   </array>
+  </dispenser>
+  <dispenser counter="7">
+   <array length="0" class="[Ljava.lang.Object;" component-type="9" parent-name="model.dispenser" container="1" name="stack">
+   </array>
+  </dispenser>
+ </model>
+ <view width="1402" height="927" zoom-index="3">
+ </view>
+ <controller width="1336" height="961" saved-by="editor">
+ </controller>
