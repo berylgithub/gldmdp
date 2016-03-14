@@ -79,7 +79,9 @@ public class TLCFactory
                 TESTDEBUG2SEGMENT5STEP=38,
                 MDP2SEGMENT5STEP=39,
                 TESTDEBUG2SEGMENT5STEPMULTINODES=40,
-                MDP2SEGMENT5STEPMULTINODES=41;
+                MDP2SEGMENT5STEPMULTINODES=41,
+                TESTDEBUG3SEGMENT5STEP=42;
+                
 
 	protected static final String[] tlcDescs = {
 		"Random",
@@ -124,7 +126,8 @@ public class TLCFactory
         "Test Debug 2 Segment 5 Step",
         "MDP 2 Segment 5 Step",
         "Test Debug 2 Segment 5 Step Multinodes",
-        "MDP 2 Segment 5 Step Multinodes"
+        "MDP 2 Segment 5 Step Multinodes",
+        "Test Debug 3 Segment 5 Step",
 	};
 
 	protected static final String[] xmlNames = {
@@ -172,6 +175,7 @@ public class TLCFactory
         MDP_2segment_5step.shortXMLName,
         TestDebug_2segment_5step_multinodes.shortXMLName,
         MDP_2segment_5step_multinodes.shortXMLName,
+        TestDebug_3segment_5step.shortXMLName,
 	};
 
 
@@ -185,7 +189,7 @@ public class TLCFactory
 		{RLSARSA1,RLSARSA2,RLSARSA3,RLSARSA4,RLSARSA5,RLSARSA6},
 		{ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
 		{GENNEURAL},
-                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES},
+                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP},
                 
 	};
 
@@ -338,6 +342,7 @@ public class TLCFactory
                         Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
+                        case TESTDEBUG3SEGMENT5STEP : return new TestDebug_3segment_5step(infra);
 		}
 	   	throw new InfraException
     			("The TLCFactory can't make TLC's of type "+algoId);

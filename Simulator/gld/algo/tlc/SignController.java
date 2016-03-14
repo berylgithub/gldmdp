@@ -62,6 +62,7 @@ public class SignController implements XMLSerializable
 		num_nodes = i.getNumNodes();
                 ///added seeeeddddd 15 march 2016
 		generator = new Random(15032016);
+                System.out.println(generator.nextDouble());
 		/*chosenConfigs = new int[i.getAllNodes().length];
 		for (int j=0; j<chosenConfigs.length; j++) chosenConfigs[j]=-1; // This should be done, otherwise all chosenConfigs are 0. This leads to problems, when config 0 is the first time the best config.*/
 		currentSC = new Sign[num_nodes][0];
