@@ -78,7 +78,7 @@ public class SimModel extends Model implements XMLSerializable
 		thread = new SimModelThread();
 		thread.start();
 		curCycle = 0;
-		generator = new Random();
+		generator = new Random(15032016);
 		sgnctrl = new SignController(tlc, infra);
 	}
 	
@@ -213,7 +213,7 @@ public class SimModel extends Model implements XMLSerializable
 		infra.reset();
 		tlc.reset();
 		curCycle = 0;
-		generator = new Random();
+		generator = new Random(15032016);
 		TrackerFactory.resetTrackers();
 
 		setChanged();
