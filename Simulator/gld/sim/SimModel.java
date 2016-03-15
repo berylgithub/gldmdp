@@ -78,7 +78,10 @@ public class SimModel extends Model implements XMLSerializable
 		thread = new SimModelThread();
 		thread.start();
 		curCycle = 0;
+                //added gundam seed
 		generator = new Random(15032016);
+                System.out.println(generator.nextDouble());
+                //end of gundam seed
 		sgnctrl = new SignController(tlc, infra);
 	}
 	
