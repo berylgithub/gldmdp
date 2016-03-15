@@ -15,6 +15,7 @@
  *------------------------------------------------------------------------*/
 package gld.algo.tlc;
 
+import MDPPreprocessor.TransitionProbContainer;
 import gld.*;
 import gld.sim.*;
 import gld.algo.tlc.*;
@@ -24,6 +25,7 @@ import gld.xml.*;
 import java.io.IOException;
 import java.util.*;
 import java.awt.Point;
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -38,12 +40,14 @@ import java.util.logging.Logger;
  * @author Group Algorithms
  * @version 1.0
  */
-public class TestDebug_3segment_5step extends TLController {
+public class MDP_3segment_5step extends TLController {
 
-    public static final String shortXMLName = "TestDebug-3-segment-5-step";
-    int actionCounter;
+    public static final String shortXMLName = "MDP_3segment_5step";
+    
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
+    
+    ArrayList<StateBestActionContainer> arrSBAC=new ArrayList<>();
 //    ArrayList<StateSeqContainer> arrSSC=new ArrayList<>();
 //    ArrayList<ActionSeqContainer> arrASC=new ArrayList<>();
             /**
@@ -52,74 +56,106 @@ public class TestDebug_3segment_5step extends TLController {
              * @param The model being used.
              */
 
-    public TestDebug_3segment_5step(Infrastructure infras) {
+    public MDP_3segment_5step(Infrastructure infras) throws IOException {
         super(infras);
-        actionCounter=0;
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
             }
         }
-
+        arrSBAC=loadActionFile("Value Iteration Result_3-segment_5-step_random.txt");
+        //test load array of result
+        for(int i=0; i<arrSBAC.size(); i++){
+            System.out.println(arrSBAC.get(i).getState()+" "+arrSBAC.get(i).getAction());
+        }
+        
     }
 
+   
+
+    
+
+    
     /**
      * This implementation sets the Q-values according to the length of the
      * waiting queue. The longer the queue, the higher the Q-value.
      */
     public TLDecision[][] decideTLs() {
-
         int num_lanes, num_nodes = tld.length;
         for (int i = 0; i < num_nodes; i++) {
             num_lanes = tld[i].length;
             
-            TuppleStateActionConainer tSAC=new TuppleStateActionConainer();
             
+            String tempState="";
             for (int j = 0; j < num_lanes; j++) {
-                boolean tempCheck=checkAction(tld[i][j]);
-                if(tempCheck==true){
-                    tSAC.setAction(""+j);
-                    for(int k=0; k<num_lanes; k++){
-                        tSAC.arrState.add(StateSetter(tld[i][k]));
-                        //pseudo relative longest que
-                        //tld[i][k].setGain(GainSetter(StateSetter(tld[i][k])));
-                        //end of pseudo relative longest que
-                        tld[i][k].setGain(0);
-                        Random rand = new Random();
-                        int randomNum = rand.nextInt((10-0)+1)+0;
-                        tld[i][k].setGain((float)randomNum);
-                    }
-                    arrTSAC.add(tSAC);
+                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
+                    tempState=tempState+StateSetter(tld[i][j]);
+                    
                 }
             }
-            System.out.print("Gain : ");
-            for (int j = 0; j < num_lanes; j++) {
-                System.out.print(tld[i][j].getGain()+" ");
+//            for(int j=0; j<num_lanes; j++){
+//                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
+//                    tld[i][manualPolicyApplier(tempState)].setGain(2);
+////                    tld[i][0].setGain(2);
+//                }
+//            }
+//            System.out.println(manualPolicyApplier(tempState)+" "+tempState);
+            
+            
+            
+            
+            
+            
+            //POLICY APPLIER
+            for(int k=0; k<arrSBAC.size(); k++){
+                int laneNumber=0;
+                if(tempState.equals(arrSBAC.get(k).getState())){
+                    laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
+                    for(int j=0; j<num_lanes; j++){
+                        tld[i][j].setGain(0);
+                    }
+                    tld[i][laneNumber].setGain(15);
+                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber+" "+currentCycle);
+                }
+            }
+            
+            for(int k=0; k<num_lanes; k++){
+                if(tld[i][k].getTL().getState()==true){
+                    System.out.println("Green = "+k);
+                    
+                }
+            }
+            for(int k=0; k<num_lanes; k++){
+                System.out.print(tld[i][k].getGain()+" ");
             }
             System.out.println("");
+            //END OF POLICY APPLIER
+            
+            //Manual Policy Applier
+            
+            
+            //end of manual policy applier
+            
+            //STUCK HANDLER, dunno dude this algorithm cause the traffic to stuck at one point of time stepa (maybe coz of the action)
+//            for(int j=0; j<tld[i].length; j++){
+//                if((double)tld[i][j].getTL().getLane().getNumBlocksWaiting()/tld[i][j].getTL().getLane().getLength()>0.8){
+//                    tld[i][j].setGain(5);
+//                }
+//            }
+            //end of stuck handler
         }
-        try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug_3-segment_5-step_random.txt");
-            for(int i=0; i<arrTSAC.size(); i++){
-                System.out.print(arrTSAC.get(i).getAction()+"\t");
-                testPrint.write(arrTSAC.get(i).getAction()+"\t");
-                for(int j=0; j<arrTSAC.get(i).arrState.size(); j++){
-                    testPrint.write(arrTSAC.get(i).arrState.get(j));
-                    System.out.print(arrTSAC.get(i).arrState.get(j));
-                }
-                System.out.println();
-                testPrint.println();
-            }
-            testPrint.close();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(TestDebug_3segment_5step.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        System.out.println("Cycle = "+(currentCycle-1));
-        System.out.println("Action Counter = "+actionCounter);
-        actionCounter++;
+        //empty the temp Var<---nevermind LOL
+        //System.out.println(this.currentCycle);
         return tld;
 
+    }
+    
+   
+    
+    public int setAction(TLDecision tld){
+        int tempAction=0;
+        
+        return tempAction;
     }
     
     public class StateSeqContainer{
@@ -158,24 +194,54 @@ public class TestDebug_3segment_5step extends TLController {
             this.arrState = arrState;
         }
         
-       
         
     }
     
-    public boolean checkAction(TLDecision tld){
-        boolean tempCheck=true;
-        if(tld.getTL().getLane().getSign().getState()==true){
-            tempCheck=true;
+    public class StateBestActionContainer{
+        String state, action;
+
+        public StateBestActionContainer() {
         }
-        else tempCheck=false;
+
+        public StateBestActionContainer(String state, String action) {
+            this.state = state;
+            this.action = action;
+        }
+
+        public String getState() {
+            return state;
+        }
+
+        public void setState(String state) {
+            this.state = state;
+        }
+
+        public String getAction() {
+            return action;
+        }
+
+        public void setAction(String action) {
+            this.action = action;
+        }
         
-        return tempCheck;
+    }
+    public ArrayList<StateBestActionContainer> loadActionFile(String url) throws FileNotFoundException, IOException{
+        ArrayList<StateBestActionContainer> tempArrSBAC=new ArrayList<>();
+        BufferedReader br = new BufferedReader(new java.io.FileReader(url));
+        String line;
+        String[] splitLine;
+        while ((line = br.readLine()) != null) {
+            splitLine=line.split("\t");
+            StateBestActionContainer tempSBAC=new StateBestActionContainer(splitLine[0], splitLine[2]);
+            tempArrSBAC.add(tempSBAC);
+        }
+        return tempArrSBAC;
     }
     
     public String StateSetter(TLDecision tld){
         String state = null;
         double percentage=(double)tld.getTL().getLane().getNumBlocksWaiting()/tld.getTL().getLane().getLength();
-        if(percentage<=0.33){
+       if(percentage<=0.33){
             state="L";
         }
         else if(percentage>0.33&&percentage<=0.67){
@@ -183,7 +249,7 @@ public class TestDebug_3segment_5step extends TLController {
         }
         else if(percentage>0.67){
             state="H";
-        } 
+        }
         return state;
         
     }
@@ -193,17 +259,15 @@ public class TestDebug_3segment_5step extends TLController {
         if(state.equals("L")){
             gain=1;
         }
-        else if(state.equals("M")){
-            gain=2;
-        }
         else if(state.equals("H")){
-            gain=3;
+            gain=2;
         }
         return gain;
     }
     
+    
     public void updateRoaduserMove(Roaduser _ru, Drivelane _prevlane, Sign _prevsign, int _prevpos, Drivelane _dlanenow, Sign _signnow, int _posnow, PosMov[] posMovs, Drivelane desired) {
-        // No needed
+        // No needed <---YEP U'RRE RIGHT
 
     }
 
@@ -215,6 +279,6 @@ public class TestDebug_3segment_5step extends TLController {
     }
 
     public String getXMLName() {
-        return "testdebug-3-segment-5-step";
+        return "MDP_3segment_5step";
     }
 }

@@ -22,7 +22,7 @@ public class DriverMain {
         
         //initialize Unique States and Transition Counter from Environments
         Preprocessor prep=new Preprocessor();
-        prep.loadSimulationRecordWNullRemover("State-Action Debug_5-step_random_2.txt");
+        prep.loadSimulationRecordWNullRemover("State-Action Debug_3-segment_5-step_random.txt");
         prep.shiftActionMinusOne();
         UniqueStatesContainer uSC=new UniqueStatesContainer();
         uSC.setUniqueStatesStringFromEnvironment(prep.getArrTSAC());
@@ -30,7 +30,7 @@ public class DriverMain {
         tSCount.setArrTSAC(prep.getArrTSAC());
         
         //create States from environments + NaN remover
-        PrintWriter printer=new PrintWriter("Transition Probability_5-step_random_2.txt");
+        PrintWriter printer=new PrintWriter("Transition Probability_3-segment_5-step_random.txt");
         StateContainer[] sCS=new StateContainer[uSC.getStatesString().size()];
         for(int i=0; i<uSC.getStatesString().size(); i++){
             sCS[i]=new StateContainer(uSC.getStatesString().get(i));
@@ -57,18 +57,30 @@ public class DriverMain {
         
         //set Environment
         Vi.setEnvReward("LLLL", 100);
-        Vi.setEnvReward("LLLH", 1);
-        Vi.setEnvReward("LLHL", 1);
-        Vi.setEnvReward("LHLL", 1);
-        Vi.setEnvReward("HLLL", 1);
-        Vi.setEnvReward("HHLL", -20);
-        Vi.setEnvReward("LHHL", -20);
-        Vi.setEnvReward("LLHH", -20);
-        Vi.setEnvReward("HLLH", -20);
-        Vi.setEnvReward("HHHL", -40);
+        
+//        Vi.setEnvReward("LLLH", 1);
+//        Vi.setEnvReward("LLHL", 1);
+//        Vi.setEnvReward("LHLL", 1);
+//        Vi.setEnvReward("HLLL", 1);
+        
+        Vi.setEnvReward("HHLL", -10);
+        Vi.setEnvReward("LHHL", -10);
+        Vi.setEnvReward("LLHH", -10);
+        Vi.setEnvReward("HLLH", -10);
+        Vi.setEnvReward("HHHL", -10);
         Vi.setEnvReward("HHLH", -40);
         Vi.setEnvReward("HLHH", -40);
         Vi.setEnvReward("LHHH", -40);
+        
+        Vi.setEnvReward("HHMM", -20);
+        Vi.setEnvReward("MHHM", -20);
+        Vi.setEnvReward("MMHH", -20);
+        Vi.setEnvReward("HMMH", -20);
+        Vi.setEnvReward("HHHM", -40);
+        Vi.setEnvReward("HHMH", -40);
+        Vi.setEnvReward("HMHH", -40);
+        Vi.setEnvReward("MHHH", -40);
+        
         Vi.setEnvReward("HHHH", -100);
         
         //LETS' DO IT !!!!!!!!!
@@ -79,7 +91,7 @@ public class DriverMain {
             System.out.println(sCS[i].getState()+"\t"+sCS[i].getUtility()+"\t"+sCS[i].getBestAction());
         }
         
-        PrintWriter printer2=new PrintWriter("Value Iteration Result_5-step_random_2.txt");
+        PrintWriter printer2=new PrintWriter("Value Iteration Result_3-segment_5-step_random.txt");
         printer2.println("State\tState's Utility\tBest Action");
         for(int i=0; i<sCS.length; i++){
             printer2.println(sCS[i].getState()+"\t"+sCS[i].getUtility()+"\t"+sCS[i].getBestAction());
