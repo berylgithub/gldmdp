@@ -97,26 +97,33 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
         int num_lanes, num_nodes = tld.length;
         for (int i = 0; i < num_nodes; i++) {
             num_lanes = tld[i].length;
-    
+            Drivelane[] outLanes=null;
             TuppleStateActionConainer tSAC=new TuppleStateActionConainer();
-            
-            for (int j = 0; j < num_lanes; j++) {
-                boolean tempCheck=checkAction(tld[i][j]);
-                if(tempCheck==true){
-                    tSAC.setAction(""+j);
-                    for(int k=0; k<num_lanes; k++){
-                        tSAC.arrState.add(StateSetter(tld[i][k]));
-                        //pseudo relative longest que
-                        //tld[i][k].setGain(GainSetter(StateSetter(tld[i][k])));
-                        //end of pseudo relative longest que
-                        tld[i][k].setGain(0);
-                        Random rand = new Random();
-                        int randomNum = rand.nextInt((10-0)+1)+0;
-                        tld[i][k].setGain((float)randomNum);
+            if(i==15){
+                for (int j = 0; j < num_lanes; j++) {
+                    boolean tempCheck=checkAction(tld[i][j]);
+                    if(tempCheck==true){
+                        tSAC.setAction(""+j);
                     }
-//                    arrTSAC.add(tSAC);
+                    
+                    try {
+                        outLanes=getOutLanes(tld[i][j]);
+                    } catch (InfraException ex) {
+                        Logger.getLogger(TestDebug_3segment_5step_neighboorStates.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+
+                    tSAC.arrState.add(StateSetter(tld[i][j]));
+                    tld[i][j].setGain(0);
+                    Random rand = new Random();
+                    int randomNum = rand.nextInt((10-0)+1)+0;
+                    tld[i][j].setGain((float)randomNum);
                 }
+                for(int j=0; j<outLanes.length; j++){
+                    tSAC.arrState.add(StateSetterOutlane(outLanes[j]));
+                }
+                arrTSAC.add(tSAC);
             }
+            
             //gain debugger
             System.out.print("Gain : ");
             for (int j = 0; j < num_lanes; j++) {
@@ -214,6 +221,20 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
         } 
         return state;
         
+    }
+    public String StateSetterOutlane(Drivelane outLanes){
+        String state = null;
+        double percentage=(double)outLanes.getNumBlocksWaiting()/outLanes.getLength();
+        if(percentage<=0.33){
+            state="L";
+        }
+        else if(percentage>0.33&&percentage<=0.67){
+            state="M";
+        }
+        else if(percentage>0.67){
+            state="H";
+        } 
+        return state;
     }
     
     public float GainSetter(String state){
