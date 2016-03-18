@@ -88,6 +88,19 @@ public class StateContainer {
         this.utility=0;
     }
     
+    public void autoSetRewardByState(){
+        for(int i=0; i<state.length(); i++){
+            if(state.charAt(i)=='H'){
+                this.reward=this.reward-20;
+            }
+            else if(state.charAt(i)=='M'){
+                this.reward=this.reward-10;
+            }
+            else if(state.charAt(i)=='L'){
+                this.reward=this.reward+20;
+            }
+        }
+    }
     //method buat semua Action, sementara not dynamic
     public void countThisTransProb(TransitionCounter tC, UniqueStatesContainer uSC){
         ArrayList<TransitionProbContainer> tempArrTP=new ArrayList<>();

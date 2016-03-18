@@ -56,32 +56,36 @@ public class DriverMain {
         Vi.setThreshold();
         
         //set Environment
-        Vi.setEnvReward("LLLL", 100);
+//        Vi.setEnvReward("LLLL", 100);
         
 //        Vi.setEnvReward("LLLH", 1);
 //        Vi.setEnvReward("LLHL", 1);
 //        Vi.setEnvReward("LHLL", 1);
 //        Vi.setEnvReward("HLLL", 1);
         
-        Vi.setEnvReward("HHLL", -10);
-        Vi.setEnvReward("LHHL", -10);
-        Vi.setEnvReward("LLHH", -10);
-        Vi.setEnvReward("HLLH", -10);
-        Vi.setEnvReward("HHHL", -10);
-        Vi.setEnvReward("HHLH", -40);
-        Vi.setEnvReward("HLHH", -40);
-        Vi.setEnvReward("LHHH", -40);
+//        Vi.setEnvReward("HHLL", -10);
+//        Vi.setEnvReward("LHHL", -10);
+//        Vi.setEnvReward("LLHH", -10);
+//        Vi.setEnvReward("HLLH", -10);
+//        Vi.setEnvReward("HHHL", -10);
+//        Vi.setEnvReward("HHLH", -40);
+//        Vi.setEnvReward("HLHH", -40);
+//        Vi.setEnvReward("LHHH", -40);
+//        
+//        Vi.setEnvReward("HHMM", -20);
+//        Vi.setEnvReward("MHHM", -20);
+//        Vi.setEnvReward("MMHH", -20);
+//        Vi.setEnvReward("HMMH", -20);
+//        Vi.setEnvReward("HHHM", -40);
+//        Vi.setEnvReward("HHMH", -40);
+//        Vi.setEnvReward("HMHH", -40);
+//        Vi.setEnvReward("MHHH", -40);
+//        
+//        Vi.setEnvReward("HHHH", -100);
         
-        Vi.setEnvReward("HHMM", -20);
-        Vi.setEnvReward("MHHM", -20);
-        Vi.setEnvReward("MMHH", -20);
-        Vi.setEnvReward("HMMH", -20);
-        Vi.setEnvReward("HHHM", -40);
-        Vi.setEnvReward("HHMH", -40);
-        Vi.setEnvReward("HMHH", -40);
-        Vi.setEnvReward("MHHH", -40);
-        
-        Vi.setEnvReward("HHHH", -100);
+        //use auto rewarder
+        Vi.setAutoRewardByState();
+        //end of auto rewarder
         
         //LETS' DO IT !!!!!!!!!
         Vi.IterateValue();

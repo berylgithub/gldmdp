@@ -46,6 +46,8 @@ public class Debugger {
         System.out.println("P(LLLL, 0, LLLL) = "+sC0.getTransProb().get(0).getTransProb());
         //SUCCESS
         
+        //test autoreward
+        
     }
     
 }

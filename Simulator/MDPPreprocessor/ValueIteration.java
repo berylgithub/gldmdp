@@ -77,7 +77,12 @@ public class ValueIteration {
         }
     }
     //static
-
+    
+    public void setAutoRewardByState(){
+        for(int i=0; i<sCS.length; i++){
+            sCS[i].autoSetRewardByState();
+        }
+    }
     public StateContainer searchState(String state){
         StateContainer tempSC=null;
         for(int i=0; i<sCS.length; i++){
