@@ -134,7 +134,7 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
         }
         
         try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug_3-segment_5-step_random_neighboorStates.txt");
+            PrintWriter testPrint=new PrintWriter("State-Action Debug_3-segment_5-step_random_neighboorStates_test.txt");
             for(int i=0; i<arrTSAC.size(); i++){
                 System.out.print(arrTSAC.get(i).getAction()+"\t");
                 testPrint.write(arrTSAC.get(i).getAction()+"\t");

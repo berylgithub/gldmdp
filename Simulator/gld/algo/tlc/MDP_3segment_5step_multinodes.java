@@ -43,18 +43,19 @@ import java.util.logging.Logger;
 public class MDP_3segment_5step_multinodes extends TLController {
 
     public static final String shortXMLName = "MDP_3segment_5step_multinodes";
-    
-    ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
+
+    ArrayList<TuppleStateActionConainer> arrTSAC = new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
-    
-    ArrayList<StateBestActionContainer> arrSBAC=new ArrayList<>();
+
+    ArrayList<StateBestActionContainer> arrSBAC = new ArrayList<>();
 //    ArrayList<StateSeqContainer> arrSSC=new ArrayList<>();
 //    ArrayList<ActionSeqContainer> arrASC=new ArrayList<>();
-            /**
-             * The constructor for TL controllers
-             *
-             * @param The model being used.
-             */
+
+    /**
+     * The constructor for TL controllers
+     *
+     * @param The model being used.
+     */
 
     public MDP_3segment_5step_multinodes(Infrastructure infras) throws IOException {
         super(infras);
@@ -63,19 +64,30 @@ public class MDP_3segment_5step_multinodes extends TLController {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
             }
         }
-        arrSBAC=loadActionFile("Value Iteration Result_3-segment_5-step_random.txt");
+        arrSBAC = loadActionFile("Value Iteration Result_3-segment_5-step_random_neighboorStates.txt");
         //test load array of result
-        for(int i=0; i<arrSBAC.size(); i++){
-            System.out.println(arrSBAC.get(i).getState()+" "+arrSBAC.get(i).getAction());
+        for (int i = 0; i < arrSBAC.size(); i++) {
+            System.out.println(arrSBAC.get(i).getState() + " " + arrSBAC.get(i).getAction());
         }
-        
+
+        for (int i = 0; i < tld.length; i++) {
+            Drivelane[] outLanes = null;
+            for (int j = 0; j < tld[i].length; j++) {
+                try {
+                    System.out.println("Node " + i + " " + tld[i][j].getTL().getNode().getOutboundLanes().length);
+                } catch (InfraException ex) {
+                    Logger.getLogger(MDP_3segment_5step_multinodes.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+        for (int i = 0; i < tld.length; i++) {
+            for (int j = 0; j < tld[i].length; j++) {
+                System.out.println("Node " + i + " " + tld[i][j].getTL().getType());
+            }
+        }
+
     }
 
-   
-
-    
-
-    
     /**
      * This implementation sets the Q-values according to the length of the
      * waiting queue. The longer the queue, the higher the Q-value.
@@ -84,15 +96,25 @@ public class MDP_3segment_5step_multinodes extends TLController {
         int num_lanes, num_nodes = tld.length;
         for (int i = 0; i < num_nodes; i++) {
             num_lanes = tld[i].length;
-            
-            
-            String tempState="";
-            for (int j = 0; j < num_lanes; j++) {
-                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
-                    tempState=tempState+StateSetter(tld[i][j]);
-                    
+
+            Drivelane[] outLanes = null;
+            String tempState = "";
+            if (i == 15) {
+                for (int j = 0; j < num_lanes; j++) {
+                    if (tld[i][j].getTL().getNode().getNumSigns() != 0) {
+                        tempState = tempState + StateSetter(tld[i][j]);
+                    }
+
+                    try {
+                        outLanes = getOutLanes(tld[i][j]);
+                    } catch (InfraException ex) {
+                        Logger.getLogger(MDP_3segment_5step_multinodes.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+
                 }
-            }
+                for (int j = 0; j < outLanes.length; j++) {
+                    tempState = tempState + StateSetterOutlane(outLanes[j]);
+                }
 //            for(int j=0; j<num_lanes; j++){
 //                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
 //                    tld[i][manualPolicyApplier(tempState)].setGain(2);
@@ -100,42 +122,34 @@ public class MDP_3segment_5step_multinodes extends TLController {
 //                }
 //            }
 //            System.out.println(manualPolicyApplier(tempState)+" "+tempState);
-            
-            
-            
-            
-            
-            
-            //POLICY APPLIER
-            for(int k=0; k<arrSBAC.size(); k++){
-                int laneNumber=0;
-                if(tempState.equals(arrSBAC.get(k).getState())){
-                    laneNumber=Integer.parseInt(arrSBAC.get(k).getAction());
-                    for(int j=0; j<num_lanes; j++){
-                        tld[i][j].setGain(0);
+
+                //POLICY APPLIER
+                for (int k = 0; k < arrSBAC.size(); k++) {
+                    int laneNumber = 0;
+                    if (tempState.equals(arrSBAC.get(k).getState())) {
+                        laneNumber = Integer.parseInt(arrSBAC.get(k).getAction());
+                        for (int j = 0; j < num_lanes; j++) {
+                            tld[i][j].setGain(0);
+                        }
+                        tld[i][laneNumber].setGain(15);
+                        System.out.println(arrSBAC.get(k).getState() + " " + laneNumber + " " + currentCycle);
                     }
-                    tld[i][laneNumber].setGain(15);
-                    System.out.println(arrSBAC.get(k).getState()+" "+laneNumber+" "+currentCycle);
                 }
-            }
-            
-            for(int k=0; k<num_lanes; k++){
-                if(tld[i][k].getTL().getState()==true){
-                    System.out.println("Green = "+k);
-                    
+
+                for (int k = 0; k < num_lanes; k++) {
+                    if (tld[i][k].getTL().getState() == true) {
+                        System.out.println("Green = " + k);
+                    }
                 }
+                for (int k = 0; k < num_lanes; k++) {
+                    System.out.print(tld[i][k].getGain() + " ");
+                }
+                System.out.println("");
             }
-            for(int k=0; k<num_lanes; k++){
-                System.out.print(tld[i][k].getGain()+" ");
-            }
-            System.out.println("");
+
             //END OF POLICY APPLIER
-            
             //Manual Policy Applier
-            
-            
             //end of manual policy applier
-            
             //STUCK HANDLER, dunno dude this algorithm cause the traffic to stuck at one point of time stepa (maybe coz of the action)
 //            for(int j=0; j<tld[i].length; j++){
 //                if((double)tld[i][j].getTL().getLane().getNumBlocksWaiting()/tld[i][j].getTL().getLane().getLength()>0.8){
@@ -149,19 +163,28 @@ public class MDP_3segment_5step_multinodes extends TLController {
         return tld;
 
     }
-    
-   
-    
-    public int setAction(TLDecision tld){
-        int tempAction=0;
-        
+
+    public boolean checkNode(TLDecision tld) {
+        return true;
+    }
+
+    public Drivelane[] getOutLanes(TLDecision tld) throws InfraException {
+        return tld.getTL().getNode().getOutboundLanes();
+    }
+
+    public int setAction(TLDecision tld) {
+        int tempAction = 0;
+
         return tempAction;
     }
-    
-    public class StateSeqContainer{
-        ArrayList<String> arrState=new ArrayList();
+
+    public class StateSeqContainer {
+
+        ArrayList<String> arrState = new ArrayList();
     }
-    public class ActionSeqContainer{
+
+    public class ActionSeqContainer {
+
         String action;
 
         public String getAction() {
@@ -171,12 +194,13 @@ public class MDP_3segment_5step_multinodes extends TLController {
         public void setAction(String action) {
             this.action = action;
         }
-        
+
     }
-    
+
     public class TuppleStateActionConainer {
+
         String action;
-        ArrayList<String> arrState=new ArrayList<>();
+        ArrayList<String> arrState = new ArrayList<>();
 
         public String getAction() {
             return action;
@@ -193,11 +217,11 @@ public class MDP_3segment_5step_multinodes extends TLController {
         public void setArrState(ArrayList<String> arrState) {
             this.arrState = arrState;
         }
-        
-        
+
     }
-    
-    public class StateBestActionContainer{
+
+    public class StateBestActionContainer {
+
         String state, action;
 
         public StateBestActionContainer() {
@@ -223,49 +247,59 @@ public class MDP_3segment_5step_multinodes extends TLController {
         public void setAction(String action) {
             this.action = action;
         }
-        
+
     }
-    public ArrayList<StateBestActionContainer> loadActionFile(String url) throws FileNotFoundException, IOException{
-        ArrayList<StateBestActionContainer> tempArrSBAC=new ArrayList<>();
+
+    public ArrayList<StateBestActionContainer> loadActionFile(String url) throws FileNotFoundException, IOException {
+        ArrayList<StateBestActionContainer> tempArrSBAC = new ArrayList<>();
         BufferedReader br = new BufferedReader(new java.io.FileReader(url));
         String line;
         String[] splitLine;
         while ((line = br.readLine()) != null) {
-            splitLine=line.split("\t");
-            StateBestActionContainer tempSBAC=new StateBestActionContainer(splitLine[0], splitLine[2]);
+            splitLine = line.split("\t");
+            StateBestActionContainer tempSBAC = new StateBestActionContainer(splitLine[0], splitLine[2]);
             tempArrSBAC.add(tempSBAC);
         }
         return tempArrSBAC;
     }
-    
-    public String StateSetter(TLDecision tld){
+
+    public String StateSetter(TLDecision tld) {
         String state = null;
-        double percentage=(double)tld.getTL().getLane().getNumBlocksWaiting()/tld.getTL().getLane().getLength();
-       if(percentage<=0.33){
-            state="L";
-        }
-        else if(percentage>0.33&&percentage<=0.67){
-            state="M";
-        }
-        else if(percentage>0.67){
-            state="H";
+        double percentage = (double) tld.getTL().getLane().getNumBlocksWaiting() / tld.getTL().getLane().getLength();
+        if (percentage <= 0.33) {
+            state = "L";
+        } else if (percentage > 0.33 && percentage <= 0.67) {
+            state = "M";
+        } else if (percentage > 0.67) {
+            state = "H";
         }
         return state;
-        
+
     }
-    
-    public float GainSetter(String state){
-        float gain=0;
-        if(state.equals("L")){
-            gain=1;
+
+    public String StateSetterOutlane(Drivelane outLanes) {
+        String state = null;
+        double percentage = (double) outLanes.getNumBlocksWaiting() / outLanes.getLength();
+        if (percentage <= 0.33) {
+            state = "L";
+        } else if (percentage > 0.33 && percentage <= 0.67) {
+            state = "M";
+        } else if (percentage > 0.67) {
+            state = "H";
         }
-        else if(state.equals("H")){
-            gain=2;
+        return state;
+    }
+
+    public float GainSetter(String state) {
+        float gain = 0;
+        if (state.equals("L")) {
+            gain = 1;
+        } else if (state.equals("H")) {
+            gain = 2;
         }
         return gain;
     }
-    
-    
+
     public void updateRoaduserMove(Roaduser _ru, Drivelane _prevlane, Sign _prevsign, int _prevpos, Drivelane _dlanenow, Sign _signnow, int _posnow, PosMov[] posMovs, Drivelane desired) {
         // No needed <---YEP U'RRE RIGHT
 
