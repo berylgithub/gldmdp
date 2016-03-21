@@ -40,14 +40,14 @@ import java.util.logging.Logger;
  * @author Group Algorithms
  * @version 1.0
  */
-public class MDP_3segment_5step_multinodes extends TLController {
+public class MDP_3segment_5step_specialnodes extends TLController {
 
-    public static final String shortXMLName = "MDP_3segment_5step_multinodes";
+    public static final String shortXMLName = "MDP_3segment_5step_specialnodes";
 
     ArrayList<TuppleStateActionConainer> arrTSAC = new ArrayList<>();
-    ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
 
     ArrayList<StateBestActionContainer> arrSBAC = new ArrayList<>();
+    ArrayList<StateBestActionContainer>[] arrMultiSBAC;
 //    ArrayList<StateSeqContainer> arrSSC=new ArrayList<>();
 //    ArrayList<ActionSeqContainer> arrASC=new ArrayList<>();
 
@@ -56,27 +56,42 @@ public class MDP_3segment_5step_multinodes extends TLController {
      *
      * @param The model being used.
      */
-
-    public MDP_3segment_5step_multinodes(Infrastructure infras) throws IOException {
+    public MDP_3segment_5step_specialnodes(Infrastructure infras) throws IOException {
         super(infras);
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
             }
         }
-        arrSBAC = loadActionFile("Value Iteration Result_3-segment_5-step_random_neighboorStates.txt");
+
+        arrMultiSBAC = (ArrayList<StateBestActionContainer>[]) new ArrayList[tld.length];
+        for (int i = 0; i < arrMultiSBAC.length; i++) {
+            arrMultiSBAC[i] = new ArrayList<>();
+        }
+
+        //manual file loader
+        for (int i = 0; i < arrMultiSBAC.length; i++) {
+            if (i == 6 || i == 7) {
+                arrMultiSBAC[i] = loadActionFile("Value Iteration Result_3-segment_5-step_random_specialnode-" + i + ".txt");
+            }
+
+        }
+        //end of manual file loader
+
+//        arrSBAC = loadActionFile("Value Iteration Result_3-segment_5-step_random_neighboorStates.txt");
         //test load array of result
         for (int i = 0; i < arrSBAC.size(); i++) {
             System.out.println(arrSBAC.get(i).getState() + " " + arrSBAC.get(i).getAction());
         }
 
+        //outland debugger
         for (int i = 0; i < tld.length; i++) {
             Drivelane[] outLanes = null;
             for (int j = 0; j < tld[i].length; j++) {
                 try {
                     System.out.println("Node " + i + " " + tld[i][j].getTL().getNode().getOutboundLanes().length);
                 } catch (InfraException ex) {
-                    Logger.getLogger(MDP_3segment_5step_multinodes.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(MDP_3segment_5step_specialnodes.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }
@@ -85,6 +100,7 @@ public class MDP_3segment_5step_multinodes extends TLController {
                 System.out.println("Node " + i + " " + tld[i][j].getTL().getType());
             }
         }
+        //end of outlane debugger (OD)/Outworld Destroyer, LOL
 
     }
 
@@ -99,7 +115,7 @@ public class MDP_3segment_5step_multinodes extends TLController {
 
             Drivelane[] outLanes = null;
             String tempState = "";
-            if (i == 15) {
+            if (i == 6||i==7) {
                 for (int j = 0; j < num_lanes; j++) {
                     if (tld[i][j].getTL().getNode().getNumSigns() != 0) {
                         tempState = tempState + StateSetter(tld[i][j]);
@@ -108,13 +124,18 @@ public class MDP_3segment_5step_multinodes extends TLController {
                     try {
                         outLanes = getOutLanes(tld[i][j]);
                     } catch (InfraException ex) {
-                        Logger.getLogger(MDP_3segment_5step_multinodes.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(MDP_3segment_5step_specialnodes.class.getName()).log(Level.SEVERE, null, ex);
                     }
 
                 }
-                for (int j = 0; j < outLanes.length; j++) {
-                    tempState = tempState + StateSetterOutlane(outLanes[j]);
+                if(i==6){
+                    tempState = tempState + StateSetterOutlane(outLanes[1]);
                 }
+                else if(i==7){
+                    tempState = tempState + StateSetterOutlane(outLanes[3]);
+                }
+                
+
 //            for(int j=0; j<num_lanes; j++){
 //                if(tld[i][j].getTL().getNode().getNumSigns()!=0){
 //                    tld[i][manualPolicyApplier(tempState)].setGain(2);
@@ -122,17 +143,16 @@ public class MDP_3segment_5step_multinodes extends TLController {
 //                }
 //            }
 //            System.out.println(manualPolicyApplier(tempState)+" "+tempState);
-
                 //POLICY APPLIER
-                for (int k = 0; k < arrSBAC.size(); k++) {
+                for (int k = 0; k < arrMultiSBAC[i].size(); k++) {
                     int laneNumber = 0;
-                    if (tempState.equals(arrSBAC.get(k).getState())) {
-                        laneNumber = Integer.parseInt(arrSBAC.get(k).getAction());
+                    if (tempState.equals(arrMultiSBAC[i].get(k).getState())) {
+                        laneNumber = Integer.parseInt(arrMultiSBAC[i].get(k).getAction());
                         for (int j = 0; j < num_lanes; j++) {
                             tld[i][j].setGain(0);
                         }
                         tld[i][laneNumber].setGain(15);
-                        System.out.println(arrSBAC.get(k).getState() + " " + laneNumber + " " + currentCycle);
+                        System.out.println(arrMultiSBAC[i].get(k).getState() + " " + laneNumber + " " + currentCycle);
                     }
                 }
 
@@ -313,6 +333,6 @@ public class MDP_3segment_5step_multinodes extends TLController {
     }
 
     public String getXMLName() {
-        return "MDP_3segment_5step_multinodes";
+        return "MDP_3segment_5step_specialnodes";
     }
 }

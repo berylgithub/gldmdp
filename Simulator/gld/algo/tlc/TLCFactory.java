@@ -83,7 +83,9 @@ public class TLCFactory
                 TESTDEBUG3SEGMENT5STEP=42,
                 MDP3SEGMENT5STEP=43,
                 TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES=44,
-                MDP3SEGMENT5STEPMULTINODES=45;
+                MDP3SEGMENT5STEPMULTINODES=45,
+                TESTDEBUG3SEGMENT5STEPSPECIALNODES=46,
+                MDP3SEGMENT5STEPSPECIALNODES=47;
                 
 
 	protected static final String[] tlcDescs = {
@@ -134,6 +136,8 @@ public class TLCFactory
         "MDP 3 segment 5 step",
         "Test Debug 3 Segment 5 Step Neighboor-States",
         "MDP 3 segment 5 step Multinodes",
+        "Test Debug 3 segment 5 step Special Nodes",
+        "MDP 3 segment 5 step Special Nodes",
 	};
 
 	protected static final String[] xmlNames = {
@@ -185,6 +189,8 @@ public class TLCFactory
         MDP_3segment_5step.shortXMLName,
         TestDebug_3segment_5step_neighboorStates.shortXMLName,
         MDP_3segment_5step_multinodes.shortXMLName,
+        TestDebug_3segment_5step_specialNode.shortXMLName,
+        MDP_3segment_5step_specialnodes.shortXMLName,
 	};
 
 
@@ -198,7 +204,7 @@ public class TLCFactory
 		{RLSARSA1,RLSARSA2,RLSARSA3,RLSARSA4,RLSARSA5,RLSARSA6},
 		{ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
 		{GENNEURAL},
-                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP, MDP3SEGMENT5STEP, TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES, MDP3SEGMENT5STEPMULTINODES},
+                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP, MDP3SEGMENT5STEP, TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES, MDP3SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEPSPECIALNODES, MDP3SEGMENT5STEPSPECIALNODES},
                 
 	};
 
@@ -367,7 +373,14 @@ public class TLCFactory
                         Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
-                        
+                        case TESTDEBUG3SEGMENT5STEPSPECIALNODES : return new  TestDebug_3segment_5step_specialNode(infra);
+                        case MDP3SEGMENT5STEPSPECIALNODES : {
+                    try {
+                        return new MDP_3segment_5step_specialnodes(infra);
+                    } catch (IOException ex) {
+                        Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
                         
  
 		}

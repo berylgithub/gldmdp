@@ -38,15 +38,15 @@ import java.util.logging.Logger;
  * @author Group Algorithms
  * @version 1.0
  */
-public class TestDebug_3segment_5step_neighboorStates extends TLController {
+public class TestDebug_3segment_5step_specialNode extends TLController {
 
-    public static final String shortXMLName = "TestDebug-3-segment-5-step-neighboorStates";
+    public static final String shortXMLName = "TestDebug-3-segment-5-step-specialnode";
     int actionCounter;
     Infrastructure infrastructure;
     ArrayList<TuppleStateActionConainer> arrTSAC=new ArrayList<>();
     ArrayList<TuppleStateActionConainer>[] arrMultiTSAC;
 
-    public TestDebug_3segment_5step_neighboorStates(Infrastructure infras) {
+    public TestDebug_3segment_5step_specialNode(Infrastructure infras) {
         super(infras);
         this.infrastructure=infras;
         actionCounter=0;
@@ -55,7 +55,16 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
                 System.out.println(j + " " + tld[i][j].getTL().getLane().getLength());
             }
         }
-        //lane debugger
+        
+        arrMultiTSAC=(ArrayList<TuppleStateActionConainer>[])new ArrayList[tld.length];
+        
+        for(int i=0; i<arrMultiTSAC.length; i++){
+            arrMultiTSAC[i]=new ArrayList<>();
+        }
+        
+        System.out.println(arrMultiTSAC.length);
+        
+        //outlane debugger (OD)
         Drivelane[] outLanes = null;
         for (int i = 0; i < tld.length; i++) {
             
@@ -70,14 +79,14 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
 //                        System.out.println("inLane ke "+k+" menuju node "+inLanes[k].getNodeLeadsTo().getId());
 //                    }
                 } catch (InfraException ex) {
-                    Logger.getLogger(TestDebug_3segment_5step_neighboorStates.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(TestDebug_3segment_5step_specialNode.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }
         System.out.println(outLanes.length);
         
         
-        //end of lane debugger
+        //end of outlane debugger (OD)
 
     }
     
@@ -99,7 +108,7 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
             num_lanes = tld[i].length;
             Drivelane[] outLanes=null;
             TuppleStateActionConainer tSAC=new TuppleStateActionConainer();
-            if(i==15){
+            if(i==6){
                 for (int j = 0; j < num_lanes; j++) {
                     boolean tempCheck=checkAction(tld[i][j]);
                     if(tempCheck==true){
@@ -109,7 +118,7 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
                     try {
                         outLanes=getOutLanes(tld[i][j]);
                     } catch (InfraException ex) {
-                        Logger.getLogger(TestDebug_3segment_5step_neighboorStates.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(TestDebug_3segment_5step_specialNode.class.getName()).log(Level.SEVERE, null, ex);
                     }
 
                     tSAC.arrState.add(StateSetter(tld[i][j]));
@@ -118,10 +127,32 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
                     int randomNum = rand.nextInt((10-0)+1)+0;
                     tld[i][j].setGain((float)randomNum);
                 }
-                for(int j=0; j<outLanes.length; j++){
-                    tSAC.arrState.add(StateSetterOutlane(outLanes[j]));
+                tSAC.arrState.add(StateSetterOutlane(outLanes[1]));
+                
+                arrMultiTSAC[i].add(tSAC);
+            }
+            else if(i==7){
+                for (int j = 0; j < num_lanes; j++) {
+                    boolean tempCheck=checkAction(tld[i][j]);
+                    if(tempCheck==true){
+                        tSAC.setAction(""+j);
+                    }
+                    
+                    try {
+                        outLanes=getOutLanes(tld[i][j]);
+                    } catch (InfraException ex) {
+                        Logger.getLogger(TestDebug_3segment_5step_specialNode.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+
+                    tSAC.arrState.add(StateSetter(tld[i][j]));
+                    tld[i][j].setGain(0);
+                    Random rand = new Random();
+                    int randomNum = rand.nextInt((10-0)+1)+0;
+                    tld[i][j].setGain((float)randomNum);
                 }
-                arrTSAC.add(tSAC);
+                tSAC.arrState.add(StateSetterOutlane(outLanes[3]));
+                
+                arrMultiTSAC[i].add(tSAC);
             }
             
             //gain debugger
@@ -133,22 +164,27 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
             //end of gain debugger
         }
         
-        try {
-            PrintWriter testPrint=new PrintWriter("State-Action Debug_3-segment_5-step_random_neighboorStates_test.txt");
-            for(int i=0; i<arrTSAC.size(); i++){
-                System.out.print(arrTSAC.get(i).getAction()+"\t");
-                testPrint.write(arrTSAC.get(i).getAction()+"\t");
-                for(int j=0; j<arrTSAC.get(i).arrState.size(); j++){
-                    testPrint.write(arrTSAC.get(i).arrState.get(j));
-                    System.out.print(arrTSAC.get(i).arrState.get(j));
+        for (int h = 0; h < arrMultiTSAC.length; h++){
+            if(h==6||h==7){
+                try {
+                    PrintWriter testPrint=new PrintWriter("State-Action Debug_3-segment_5-step_random_specialnode-"+h+".txt");
+                    for(int i=0; i<arrMultiTSAC[h].size(); i++){
+                        System.out.print(arrMultiTSAC[h].get(i).getAction()+"\t");
+                        testPrint.write(arrMultiTSAC[h].get(i).getAction()+"\t");
+                        for(int j=0; j<arrMultiTSAC[h].get(i).arrState.size(); j++){
+                            testPrint.write(arrMultiTSAC[h].get(i).arrState.get(j));
+                            System.out.print(arrMultiTSAC[h].get(i).arrState.get(j));
+                        }
+                        System.out.println();
+                        testPrint.println();
+                    }
+                    testPrint.close();
+                } catch (FileNotFoundException ex) {
+                    Logger.getLogger(TestDebug_3segment_5step_specialNode.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                System.out.println();
-                testPrint.println();
             }
-            testPrint.close();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(TestDebug_3segment_5step_neighboorStates.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
         
         System.out.println("Cycle = "+(currentCycle-1));
         System.out.println("Action Counter = "+actionCounter);
@@ -264,6 +300,6 @@ public class TestDebug_3segment_5step_neighboorStates extends TLController {
     }
 
     public String getXMLName() {
-        return "testdebug-3-segment-5-step-neighboorStates";
+        return "testdebug-3-segment-5-step-specialnode";
     }
 }
