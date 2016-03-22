@@ -85,7 +85,9 @@ public class TLCFactory
                 TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES=44,
                 MDP3SEGMENT5STEPMULTINODES=45,
                 TESTDEBUG3SEGMENT5STEPSPECIALNODES=46,
-                MDP3SEGMENT5STEPSPECIALNODES=47;
+                MDP3SEGMENT5STEPSPECIALNODES=47,
+                TESTDEBUG3SEGMENT5STEPSPECIALNODESTYPE2=48,
+                MDP3SEGMENT5STEPSPECIALNODESTYPE2=49;
                 
 
 	protected static final String[] tlcDescs = {
@@ -138,6 +140,8 @@ public class TLCFactory
         "MDP 3 segment 5 step Multinodes",
         "Test Debug 3 segment 5 step Special Nodes",
         "MDP 3 segment 5 step Special Nodes",
+        "Test Debug 3 Segment 5 Step Special Nodes type 2",
+        "MDP 3 segment 5 step Special Nodes type 2",
 	};
 
 	protected static final String[] xmlNames = {
@@ -191,6 +195,8 @@ public class TLCFactory
         MDP_3segment_5step_multinodes.shortXMLName,
         TestDebug_3segment_5step_specialNode.shortXMLName,
         MDP_3segment_5step_specialnodes.shortXMLName,
+        TestDebug_3segment_5step_specialNode_type2.shortXMLName,
+        MDP_3segment_5step_specialnodes_type2.shortXMLName,
 	};
 
 
@@ -204,7 +210,7 @@ public class TLCFactory
 		{RLSARSA1,RLSARSA2,RLSARSA3,RLSARSA4,RLSARSA5,RLSARSA6},
 		{ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
 		{GENNEURAL},
-                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP, MDP3SEGMENT5STEP, TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES, MDP3SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEPSPECIALNODES, MDP3SEGMENT5STEPSPECIALNODES},
+                {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP, MDP3SEGMENT5STEP, TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES, MDP3SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEPSPECIALNODES, MDP3SEGMENT5STEPSPECIALNODES, TESTDEBUG3SEGMENT5STEPSPECIALNODESTYPE2, MDP3SEGMENT5STEPSPECIALNODESTYPE2},
                 
 	};
 
@@ -381,8 +387,15 @@ public class TLCFactory
                         Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
+                        case TESTDEBUG3SEGMENT5STEPSPECIALNODESTYPE2 : return new TestDebug_3segment_5step_specialNode_type2(infra);
+                        case MDP3SEGMENT5STEPSPECIALNODESTYPE2 : {
+                    try {
+                        return new MDP_3segment_5step_specialnodes_type2(infra);
+                    } catch (IOException ex) {
+                        Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
                         
- 
 		}
 	   	throw new InfraException
     			("The TLCFactory can't make TLC's of type "+algoId);

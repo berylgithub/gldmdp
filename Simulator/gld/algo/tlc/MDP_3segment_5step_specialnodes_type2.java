@@ -40,9 +40,9 @@ import java.util.logging.Logger;
  * @author Group Algorithms
  * @version 1.0
  */
-public class MDP_3segment_5step_specialnodes extends TLController {
+public class MDP_3segment_5step_specialnodes_type2 extends TLController {
 
-    public static final String shortXMLName = "MDP_3segment_5step_specialnodes";
+    public static final String shortXMLName = "MDP_3segment_5step_specialnodes_type2";
 
     ArrayList<TuppleStateActionConainer> arrTSAC = new ArrayList<>();
 
@@ -56,7 +56,7 @@ public class MDP_3segment_5step_specialnodes extends TLController {
      *
      * @param The model being used.
      */
-    public MDP_3segment_5step_specialnodes(Infrastructure infras) throws IOException {
+    public MDP_3segment_5step_specialnodes_type2(Infrastructure infras) throws IOException {
         super(infras);
         for (int i = 0; i < tld.length; i++) {
             for (int j = 0; j < tld[i].length; j++) {
@@ -72,7 +72,7 @@ public class MDP_3segment_5step_specialnodes extends TLController {
         //manual file loader
         for (int i = 0; i < arrMultiSBAC.length; i++) {
             if (i == 6 || i == 7) {
-                arrMultiSBAC[i] = loadActionFile("Value Iteration Result_3-segment_5-step_random_specialnode-" + i + ".txt");
+                arrMultiSBAC[i] = loadActionFile("Value Iteration Result_3-segment_5-step_random_specialnode_type2-" + i + ".txt");
             }
 
         }
@@ -94,7 +94,7 @@ public class MDP_3segment_5step_specialnodes extends TLController {
                 try {
                     System.out.println("Node " + i + " " + tld[i][j].getTL().getNode().getOutboundLanes().length);
                 } catch (InfraException ex) {
-                    Logger.getLogger(MDP_3segment_5step_specialnodes.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(MDP_3segment_5step_specialnodes_type2.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }
@@ -121,18 +121,6 @@ public class MDP_3segment_5step_specialnodes extends TLController {
             if (i == 6||i==7) {
                 for (int j = 0; j < num_lanes; j++) {
                     tempState = tempState + StateSetter(tld[i][j]);
-                    try {
-                        outLanes = getOutLanes(tld[i][j]);
-                    } catch (InfraException ex) {
-                        Logger.getLogger(MDP_3segment_5step_specialnodes.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-
-                }
-                if(i==6){
-                    tempState = tempState + StateSetterOutlane(outLanes[1]);
-                }
-                else if(i==7){
-                    tempState = tempState + StateSetterOutlane(outLanes[3]);
                 }
                 
 

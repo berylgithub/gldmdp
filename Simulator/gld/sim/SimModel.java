@@ -267,6 +267,7 @@ public class SimModel extends Model implements XMLSerializable
                         if(curCycle%5==0){
                             sgnctrl.switchSigns(curCycle);
                         }
+                        
                         //
 		}
 		catch (Exception e) {
