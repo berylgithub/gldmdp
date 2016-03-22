@@ -72,7 +72,7 @@ public class MDP_3segment_5step_specialnodes_type2 extends TLController {
         //manual file loader
         for (int i = 0; i < arrMultiSBAC.length; i++) {
             if (i == 6 || i == 7) {
-                arrMultiSBAC[i] = loadActionFile("Value Iteration Result_3-segment_5-step_random_specialnode_type2-" + i + ".txt");
+                arrMultiSBAC[i] = loadActionFile("Value Iteration Result_3-segment_5-step_random_specialnode_type2-" + i + "_train2.txt");
             }
 
         }
