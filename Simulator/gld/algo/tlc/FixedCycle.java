@@ -34,8 +34,9 @@ import java.awt.Point;
  * @version 1.0
  */
 public class FixedCycle extends TLController
-{	public static final String shortXMLName="fixed-cycle";
+{	public static final String shortXMLName="Fixed-Policy-Cycle";
 	int numCycle;
+        int policyNumber;
 	/**
 	 * The constructor for TL controllers
 	 * @param The model being used.
@@ -48,7 +49,7 @@ public class FixedCycle extends TLController
                     System.out.println(tld[i][j].getTL().getLane().getLength());
                 }
             }
-            
+            policyNumber=0;
 	}
 	
 	/**
@@ -58,17 +59,32 @@ public class FixedCycle extends TLController
 	public TLDecision[][] decideTLs()
 	{
 		int num_lanes, num_nodes = tld.length;
-		
+                
+		if(policyNumber==4){
+                    policyNumber=0;
+                }
+                
 		for (int i=0; i < num_nodes; i++) {
-			num_lanes = tld[i].length;
-			for(int j=0; j < num_lanes; j++) {
-				if(tld[i][j].getTL().getLane().getNumRoadusersWaiting()>=1)
-					tld[i][j].setGain(1);
-				else
-					tld[i][j].setGain(0);
+                    num_lanes = tld[i].length;
+                    for(int j=0; j < num_lanes; j++) {
+                        tld[i][j].setGain(0);
+                        tld[i][policyNumber].setGain(1);
+                    }
+                    
+		}
+                policyNumber++;
+                
+                //gain debugger
+                for(int i=0; i<num_nodes; i++){
+                    System.out.print("Gain : ");
+                    for(int j=0; j<tld[i].length; j++){
+                        System.out.print(tld[i][j].getGain()+" ");
                     }
                     System.out.println("");
-		}
+                }
+                System.out.println("Ppolicy number = "+policyNumber);
+                //eo gain debugger
+                
 		return tld;
 	}
 
@@ -87,6 +103,6 @@ public class FixedCycle extends TLController
 	}
   
  	public String getXMLName ()
-	{ 	return "model.tlc-mostcars";
+	{ 	return "Fixed-Policy-Cycle";
 	}
 }
