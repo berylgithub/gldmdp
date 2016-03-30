@@ -1,0 +1,53 @@
+# Data exported by Green Light District
+#
+# Infrastructure: "untitled" by 
+# Simulation: "untitled"
+#
+# Data at cycle: 4000
+# #nodes = 8, #specialnodes = 6, #junctions = 2
+#
+# Total number of roadusers that has arrived at its destination: 3849
+# Total number of junction crossings: 6187
+# Average trip waiting time (based on all roadusers arrived): 1110.4883
+# Average junction waiting time (based on all junction crossings): 104.08598
+# Average junction waiting time (based on last 2000 junction crossings): 111.9555
+#
+#
+# EdgeNodes
+# Data format: <id	ruType	roadusersArrived	avgTripWaitingTimeAllTime	avgTripWaitingTimeLast1000>
+#
+0	0	734	1104.4458	1104.4456
+0	1	734	1104.4458	1104.4456
+0	2	0	0.0	0.0
+0	4	0	0.0	0.0
+1	0	630	1243.6315	1243.6317
+1	1	630	1243.6315	1243.6317
+1	2	0	0.0	0.0
+1	4	0	0.0	0.0
+2	0	616	1028.7449	1028.7451
+2	1	616	1028.7449	1028.7451
+2	2	0	0.0	0.0
+2	4	0	0.0	0.0
+3	0	629	1096.9491	1096.9491
+3	1	629	1096.9491	1096.9491
+3	2	0	0.0	0.0
+3	4	0	0.0	0.0
+4	0	618	1082.4141	1082.4142
+4	1	618	1082.4141	1082.4142
+4	2	0	0.0	0.0
+4	4	0	0.0	0.0
+5	0	622	1105.3037	1105.3038
+5	1	622	1105.3037	1105.3038
+5	2	0	0.0	0.0
+5	4	0	0.0	0.0
+#
+# Junctions
+#
+6	0	3193	98.25555	105.113
+6	1	3193	98.25555	105.113
+6	2	0	0.0	0.0
+6	4	0	0.0	0.0
+7	0	2994	110.30394	118.798
+7	1	2994	110.30394	118.798
+7	2	0	0.0	0.0
+7	4	0	0.0	0.0

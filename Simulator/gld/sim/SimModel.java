@@ -268,7 +268,10 @@ public class SimModel extends Model implements XMLSerializable
                             sgnctrl.switchSigns(curCycle);
                         }
                         
-                        //
+                        //edited 4k cycle autopause for testing
+                        if(curCycle==4000){
+                            pause();
+                        }
 		}
 		catch (Exception e) {
 			System.out.println("The simulator made a booboo:");

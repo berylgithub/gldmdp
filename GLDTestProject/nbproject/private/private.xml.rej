@@ -1,0 +1,9 @@
+diff a/GLDTestProject/nbproject/private/private.xml b/GLDTestProject/nbproject/private/private.xml	(rejected hunks)
+@@ -6,7 +6,6 @@
+             <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/MDPPreprocessor/StateContainer.java</file>
+             <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/gld/algo/tlc/MDP_3segment_5step_specialnodes_type2.java</file>
+             <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/MDPPreprocessor/TransitionProbContainer.java</file>
+-            <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/gld/algo/tlc/TestDebug_nsegment.java</file>
+             <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/MDPPreprocessor/ActionSequenceCreator.java</file>
+             <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/MDPPreprocessor/Driver.java</file>
+             <file>file:/D:/Users/Yorozuya/Documents/Matkul%20smt%207/TA2/gldmdp/Simulator/gld/infra/Node.java</file>
