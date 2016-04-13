@@ -23,12 +23,12 @@ public class MainReader {
         // TODO code application logic here
         WtContainer wtc=new WtContainer();
         try {
-            wtc.readAllFile("D:\\Users\\Yorozuya\\Documents\\Matkul smt 7\\TA2\\gldmdp\\Test results\\statistics - 2junction- MDP_3segment_5step_specNodeType2_4k_car(0,4)_with seed(15032016)_t2_test", 30);
+            wtc.readAllFile("D:\\Users\\Yorozuya\\Documents\\Matkul smt 7\\TA2\\gldmdp\\Test results\\statistics - 2junction- MDP_5segment_5step_specNodeType2_4k_car(0,4)_with seed(15032016)_t2_test", 30);
         } catch (IOException ex) {
             Logger.getLogger(MainReader.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
-            wtc.filePrinter("result_0,25.txt");
+            wtc.filePrinter("result_0,135.txt");
         } catch (FileNotFoundException ex) {
             Logger.getLogger(MainReader.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -153,11 +153,11 @@ public class TestDebug_5segment_5step_specialNode_type2 extends TLController {
                 try {
                     PrintWriter testPrint=new PrintWriter("State-Action Debug_5-segment_5-step_random_specialnode_type2-"+h+"_train.txt");
                     for(int i=0; i<arrMultiTSAC[h].size(); i++){
-                        System.out.print(arrMultiTSAC[h].get(i).getAction()+"\t");
+//                        System.out.print(arrMultiTSAC[h].get(i).getAction()+"\t");
                         testPrint.write(arrMultiTSAC[h].get(i).getAction()+"\t");
                         for(int j=0; j<arrMultiTSAC[h].get(i).arrState.size(); j++){
                             testPrint.write(arrMultiTSAC[h].get(i).arrState.get(j));
-                            System.out.print(arrMultiTSAC[h].get(i).arrState.get(j));
+//                            System.out.print(arrMultiTSAC[h].get(i).arrState.get(j));
                         }
                         System.out.println();
                         testPrint.println();
