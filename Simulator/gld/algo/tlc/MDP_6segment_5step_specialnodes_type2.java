@@ -273,15 +273,17 @@ public class MDP_6segment_5step_specialnodes_type2 extends TLController {
     public String StateSetter(TLDecision tld) {
         String state = null;
         double percentage = (double) tld.getTL().getLane().getNumBlocksWaiting() / tld.getTL().getLane().getLength();
-        if (percentage <= 0.2) {
+        if (percentage <= 0.17) {
             state = "O";
-        } else if (percentage > 0.2 && percentage <= 0.4) {
+        } else if (percentage > 0.17 && percentage <= 0.33) {
             state = "L";
-        } else if (percentage > 0.4 && percentage <= 0.6) {
+        } else if (percentage > 0.33 && percentage <= 0.5) {
             state = "M";
-        } else if (percentage > 0.6 & percentage <= 0.8) {
+        } else if (percentage > 0.5 & percentage <= 0.67) {
+            state = "N";
+        } else if (percentage > 0.67 & percentage <= 0.83) {
             state = "H";
-        } else if (percentage > 0.8) {
+        } else if (percentage > 0.83) {
             state = "I";
         }
         return state;
