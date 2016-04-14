@@ -19,7 +19,6 @@ package gld.algo.tlc;
  * This class can be used to create instances of Traffic Light Controllers for a
  * specific infrastructure.
  */
-
 import gld.infra.InfraException;
 import gld.infra.Infrastructure;
 import gld.sim.SimModel;
@@ -89,7 +88,8 @@ public class TLCFactory {
             TESTDEBUG3SEGMENT5STEPSPECIALNODESTYPE2 = 48,
             MDP3SEGMENT5STEPSPECIALNODESTYPE2 = 49,
             TESTDEBUG5SEGMENT5STEPSPECIALNODESTYPE2 = 50,
-            MDP5SEGMENT5STEPSPECIALNODESTYPE2 = 51;
+            MDP5SEGMENT5STEPSPECIALNODESTYPE2 = 51,
+            TESTDEBUG6SEGMENT5STEPSPECIALNODESTYPE2 = 52;
 
     protected static final String[] tlcDescs = {
         "Random",
@@ -143,7 +143,8 @@ public class TLCFactory {
         "Test Debug 3 Segment 5 Step Special Nodes type 2",
         "MDP 3 segment 5 step Special Nodes type 2",
         "Test Debug 5 segment 5 step Special Nodes type 2",
-        "MDP 5 segment 5 step Special Nodes type 2",};
+        "MDP 5 segment 5 step Special Nodes type 2",
+        "Test Debug 6 segment 5 step Spcial Nodes type 2",};
 
     protected static final String[] xmlNames = {
         RandomTLC.shortXMLName,
@@ -198,7 +199,8 @@ public class TLCFactory {
         TestDebug_3segment_5step_specialNode_type2.shortXMLName,
         MDP_3segment_5step_specialnodes_type2.shortXMLName,
         TestDebug_5segment_5step_specialNode_type2.shortXMLName,
-        MDP_5segment_5step_specialnodes_type2.shortXMLName,};
+        MDP_5segment_5step_specialnodes_type2.shortXMLName,
+        TestDebug_6segment_5step_specialNode_type2.shortXMLName,};
 
     protected static final String[] categoryDescs = {"Simple Maths", "Complex Maths", "Longest Q-variants", "Reinforcement Learning", "RL Sarsa TLCs", "Genetic", "Neural Network", "TA"};
     protected static final int[][] categoryTLCs = {
@@ -210,7 +212,7 @@ public class TLCFactory {
         {RLSARSA1, RLSARSA2, RLSARSA3, RLSARSA4, RLSARSA5, RLSARSA6},
         {ACGJ_1, ACGJ_3, ACGJ_3_FV, ACGJ_4, ACGJ_5},
         {GENNEURAL},
-        {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP, MDP3SEGMENT5STEP, TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES, MDP3SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEPSPECIALNODES, MDP3SEGMENT5STEPSPECIALNODES, TESTDEBUG3SEGMENT5STEPSPECIALNODESTYPE2, MDP3SEGMENT5STEPSPECIALNODESTYPE2, TESTDEBUG5SEGMENT5STEPSPECIALNODESTYPE2, MDP5SEGMENT5STEPSPECIALNODESTYPE2},};
+        {FIXEDCYCLE, PERCENTAGE, TESTDEBUG, TESTDEBUG2SEGMENT, MDP2SEGMENT, TESTDEBUGNSEGMENT, TESTDEBUG2SEGMENT5STEP, MDP2SEGMENT5STEP, TESTDEBUG2SEGMENT5STEPMULTINODES, MDP2SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEP, MDP3SEGMENT5STEP, TESTDEBUG3SEGMENT5STEPNEIGHBOORSTATES, MDP3SEGMENT5STEPMULTINODES, TESTDEBUG3SEGMENT5STEPSPECIALNODES, MDP3SEGMENT5STEPSPECIALNODES, TESTDEBUG3SEGMENT5STEPSPECIALNODESTYPE2, MDP3SEGMENT5STEPSPECIALNODESTYPE2, TESTDEBUG5SEGMENT5STEPSPECIALNODESTYPE2, TESTDEBUG6SEGMENT5STEPSPECIALNODESTYPE2},};
 
     /**
      * Makes a new TLCFactory for a specific infrastructure with a new random
@@ -465,6 +467,8 @@ public class TLCFactory {
                     Logger.getLogger(TLCFactory.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
+            case TESTDEBUG6SEGMENT5STEPSPECIALNODESTYPE2:
+                return new TestDebug_6segment_5step_specialNode_type2(infra);
 
         }
         throw new InfraException("The TLCFactory can't make TLC's of type " + algoId);
