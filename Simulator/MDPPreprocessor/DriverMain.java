@@ -22,7 +22,7 @@ public class DriverMain {
         
         //initialize Unique States and Transition Counter from Environments
         Preprocessor prep=new Preprocessor();
-        prep.loadSimulationRecordWNullRemover("State-Action Debug_6-segment_5-step_random_specialnode_type2-7_train.txt");
+        prep.loadSimulationRecordWNullRemover("State-Action Debug_5-segment_5-step_random_specialnode_type2-7_train.txt");
         prep.shiftActionMinusOne();
         UniqueStatesContainer uSC=new UniqueStatesContainer();
         uSC.setUniqueStatesStringFromEnvironment(prep.getArrTSAC());
@@ -30,7 +30,7 @@ public class DriverMain {
         tSCount.setArrTSAC(prep.getArrTSAC());
         
         //create States from environments + NaN remover
-        PrintWriter printer=new PrintWriter("Transition Probability_6-segment_5-step_random_specialnode_type2-7_train.txt");
+        PrintWriter printer=new PrintWriter("Transition Probability_5-segment_5-step_random_specialnode_type2-7_train2_0,2gamma.txt");
         StateContainer[] sCS=new StateContainer[uSC.getStatesString().size()];
         for(int i=0; i<uSC.getStatesString().size(); i++){
             sCS[i]=new StateContainer(uSC.getStatesString().get(i));
@@ -51,7 +51,7 @@ public class DriverMain {
         ValueIteration Vi=new ValueIteration();
         Vi.setsCS(sCS);
         Vi.setDelta(0);
-        Vi.setDiscount(0.9);
+        Vi.setDiscount(0.2);
         Vi.setError(0.01);
         Vi.setThreshold();
         
@@ -95,11 +95,11 @@ public class DriverMain {
             System.out.println(sCS[i].getState()+"\t"+sCS[i].getUtility()+"\t"+sCS[i].getBestAction());
         }
         
-        PrintWriter printer2=new PrintWriter("Value Iteration Result_6-segment_5-step_random_specialnode_type2-7_train.txt");
+        PrintWriter printer2=new PrintWriter("Value Iteration Result_5-segment_5-step_random_specialnode_type2-7_train2_0,2gamma.txt");
         printer2.println("State\tState's Utility\tBest Action");
         for(int i=0; i<sCS.length; i++){
             //"DONT PRINT UNREACHABLE STATES" HANDLER
-            if(sCS[i].getUtility()%1!=0){
+            if(sCS[i].getUtility()!=0){
                 printer2.println(sCS[i].getState()+"\t"+sCS[i].getUtility()+"\t"+sCS[i].getBestAction());
             }
             //end of unreachable states handler
