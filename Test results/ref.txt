@@ -1,0 +1,10 @@
+ref[i-temp]
+[1] Maria, Anu. 1997. Introduction to Modeling and Simulation.
+[2]V.P. Singh. 2009. System Modeling and Simulation.
+[3]Burns, Pat. 2004. Linear Congtuential Random Number Generators
+[4]Wiering, Marco., Veenen, Jelle., Vreeken, Jilles., Koopman, Arne. 2004. Intelligent
+Traffic Light Control.
+[5]Sutton, Richard., Barto, Andrew. 1998. Reinforcement Learning: An Introduction.
+[6]Steingrover, Merlijn., Schouten, Roelant., Peelen, Stefan., Nijhuis, Emil.,
+Bakker, Bram. Reinforcement Learning of Traffic Light
+Controllers Adapting to Traffic Congestion.
