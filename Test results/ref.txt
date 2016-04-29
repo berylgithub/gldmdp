@@ -8,3 +8,9 @@ Traffic Light Control.
 [6]Steingrover, Merlijn., Schouten, Roelant., Peelen, Stefan., Nijhuis, Emil.,
 Bakker, Bram. Reinforcement Learning of Traffic Light
 Controllers Adapting to Traffic Congestion.
+[7]Khiang, Kok., Khalid, Marzuki., Yusof, Rubiyah. 1996. Intelligent Traffic Light Control By Fuzzy Logic.
+[8]Singh, Leena., Tripathi, Sudhanshu., Arora, Himakshi. 2009. Time Optimization for Traffic Signal Control
+Using Genetic Algorithm.
+[9]Hirankitti, Visit., Krohkaew, Jaturapith., Hogger, Chris. 2007. A Multi-Agent Approach for Intelligent Traffic-Light Control.
+[10]Abdoos, Monireh., Mozayani, Nasser., Bazzan, Ana. 2011. Traffic Light Control in Non-stationary Environments based on Multi Agent Q-learning
+
